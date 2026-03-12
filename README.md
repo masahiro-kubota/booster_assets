@@ -91,8 +91,8 @@ Right_Ankle_Roll
 
 | File Name                  | Fps | Description                                        |
 |----------------------------|-----|----------------------------------------------------|
-| k1_fight_001.csv           | 30  | Fighting motion sequence                           |
-| k1_mj2_seg1.csv            | 50  | MJ dance segment                                   |
+| k1_fight_001_30fps.csv           | 30  | Fighting motion sequence                           |
+| k1_mj2_seg1_50fps.csv            | 50  | MJ dance segment                                   |
 
 
 Python installation and usage
