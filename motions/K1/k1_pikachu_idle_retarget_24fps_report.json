@@ -1,0 +1,1897 @@
+{
+  "source_blend": "/mnt/ssd2/booster/blender/k1_character_v1.blend",
+  "source_collection": "K1_Rig_PikachuIdleRetarget",
+  "root_object": "Link_Trunk_PikachuIdleRetarget",
+  "csv_path": "/mnt/ssd2/booster/booster_assets/motions/K1/k1_pikachu_idle_retarget_24fps.csv",
+  "grounded_csv_path": "/mnt/ssd2/booster/booster_assets/motions/K1/k1_pikachu_idle_retarget_grounded_24fps.csv",
+  "fps": 24,
+  "frame_start": 0,
+  "frame_end": 49,
+  "frames": 50,
+  "duration_s": 2.0416666666666665,
+  "columns": [
+    "root_x",
+    "root_y",
+    "root_z",
+    "root_qx",
+    "root_qy",
+    "root_qz",
+    "root_qw",
+    "AAHead_yaw",
+    "Head_pitch",
+    "ALeft_Shoulder_Pitch",
+    "Left_Shoulder_Roll",
+    "Left_Elbow_Pitch",
+    "Left_Elbow_Yaw",
+    "ARight_Shoulder_Pitch",
+    "Right_Shoulder_Roll",
+    "Right_Elbow_Pitch",
+    "Right_Elbow_Yaw",
+    "Left_Hip_Pitch",
+    "Left_Hip_Roll",
+    "Left_Hip_Yaw",
+    "Left_Knee_Pitch",
+    "Left_Ankle_Pitch",
+    "Left_Ankle_Roll",
+    "Right_Hip_Pitch",
+    "Right_Hip_Roll",
+    "Right_Hip_Yaw",
+    "Right_Knee_Pitch",
+    "Right_Ankle_Pitch",
+    "Right_Ankle_Roll"
+  ],
+  "ground_check": {
+    "ground_z": 0.0,
+    "min_all_mesh_z": -0.25268954038619995,
+    "min_left_foot_z": -0.038234006613492966,
+    "min_right_foot_z": -0.038234006613492966,
+    "all_mesh_penetration_m": 0.25268954038619995,
+    "left_foot_penetration_m": 0.038234006613492966,
+    "right_foot_penetration_m": 0.038234006613492966,
+    "grounded_root_z_offset_m": 0.038234006613492966,
+    "note": "grounded_csv adds grounded_root_z_offset_m to root_z only. Use Isaac/Booster replay to decide whether raw or grounded CSV matches the URDF contact geometry better."
+  },
+  "joint_ranges_rad": {
+    "AAHead_yaw": {
+      "min": -0.2223508208990097,
+      "max": 0.1476491093635559
+    },
+    "Head_pitch": {
+      "min": -0.3464999496936798,
+      "max": -0.27400001883506775
+    },
+    "ALeft_Shoulder_Pitch": {
+      "min": -1.2090855836868286,
+      "max": -1.0470858812332153
+    },
+    "Left_Shoulder_Roll": {
+      "min": -1.7400000095367432,
+      "max": -1.576999545097351
+    },
+    "Left_Elbow_Pitch": {
+      "min": -2.2699999809265137,
+      "max": -2.2359986305236816
+    },
+    "Left_Elbow_Yaw": {
+      "min": -1.2655898332595825,
+      "max": -0.961591362953186
+    },
+    "ARight_Shoulder_Pitch": {
+      "min": -0.9796271324157715,
+      "max": -0.5696296095848083
+    },
+    "Right_Shoulder_Roll": {
+      "min": 1.1358511447906494,
+      "max": 1.454849123954773
+    },
+    "Right_Elbow_Pitch": {
+      "min": -2.2699999809265137,
+      "max": -2.243328094482422
+    },
+    "Right_Elbow_Yaw": {
+      "min": 0.4661951959133148,
+      "max": 0.8416951298713684
+    },
+    "Left_Hip_Pitch": {
+      "min": -0.25673946738243103,
+      "max": -0.14173930883407593
+    },
+    "Left_Hip_Roll": {
+      "min": 0.22823050618171692,
+      "max": 0.25623056292533875
+    },
+    "Left_Hip_Yaw": {
+      "min": 0.2721075117588043,
+      "max": 0.5206075310707092
+    },
+    "Left_Knee_Pitch": {
+      "min": 0.013050081208348274,
+      "max": 0.06455009430646896
+    },
+    "Left_Ankle_Pitch": {
+      "min": 0.11072749644517899,
+      "max": 0.1532275229692459
+    },
+    "Left_Ankle_Roll": {
+      "min": -0.19531194865703583,
+      "max": -0.15281184017658234
+    },
+    "Right_Hip_Pitch": {
+      "min": -0.18132062256336212,
+      "max": -0.04732055589556694
+    },
+    "Right_Hip_Roll": {
+      "min": -0.4690396189689636,
+      "max": -0.44703957438468933
+    },
+    "Right_Hip_Yaw": {
+      "min": -0.49038758873939514,
+      "max": -0.2363872230052948
+    },
+    "Right_Knee_Pitch": {
+      "min": 0.10149595141410828,
+      "max": 0.18649598956108093
+    },
+    "Right_Ankle_Pitch": {
+      "min": 0.2685331404209137,
+      "max": 0.3325332701206207
+    },
+    "Right_Ankle_Roll": {
+      "min": 0.34299999475479126,
+      "max": 0.3449999988079071
+    }
+  },
+  "joint_limit_violations": [],
+  "frame_reports": [
+    {
+      "frame": 0,
+      "root_z": 0.5671107769012451,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 47,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "root_z": 0.5651108026504517,
+      "all_mesh_min_z": -0.25268954038619995,
+      "all_mesh_max_z": 0.23726296424865723,
+      "left_foot_min_z": -0.038234006613492966,
+      "right_foot_min_z": -0.038234006613492966,
+      "worst_mesh_min_z": [
+        {
+          "object": "Mesh_Left_Shank_Left_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268954038619995,
+          "parent": "Link_Left_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Shank_Right_Shank_1_PikachuIdleRetarget",
+          "min_z": -0.25268906354904175,
+          "parent": "Link_Right_Shank_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Left_Hip_Yaw_Left_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Left_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Right_Hip_Yaw_Right_Hip_Yaw_1_PikachuIdleRetarget",
+          "min_z": -0.16297999024391174,
+          "parent": "Link_Right_Hip_Yaw_PikachuIdleRetarget"
+        },
+        {
+          "object": "Mesh_Trunk_Trunk_1_PikachuIdleRetarget",
+          "min_z": -0.10950002819299698,
+          "parent": "Link_Trunk_PikachuIdleRetarget"
+        }
+      ]
+    }
+  ]
+}
