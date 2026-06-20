@@ -33,6 +33,14 @@ __pycache__/
 *.npz
 *.pt
 
+# Motion NPZ assets under motions/ are versioned with Git LFS.
+!motions/**/*.npz
+
+# Local scratch/convenience conversions regenerated from CSV or experiments.
+motions/K1/k1_fight_001.npz
+motions/K1/k1_fight_001_30fps.npz
+motions/K1/output_k1.npz
+
 # CAD and Mesh Backup Files
 *.stl.bak
 *.obj.bak
