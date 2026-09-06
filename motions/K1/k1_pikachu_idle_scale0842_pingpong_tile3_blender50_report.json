@@ -1,0 +1,2736 @@
+{
+  "source_blend": "/home/masa/booster/blender/k1_character_v1.blend",
+  "source_collection": "K1_Rig_PikachuIdleRetarget_Scale0842",
+  "root_object": "Link_Trunk_PikachuIdleRetarget_Scale0842",
+  "source_frame_range": [
+    0.0,
+    49.0
+  ],
+  "source_actions": [
+    {
+      "object": "Link_Trunk_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Trunk_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Trunk_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Head_1_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Head_1_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Head_1_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Head_2_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Head_2_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Head_2_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Arm_1_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Arm_1_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Arm_1_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Arm_2_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Arm_2_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Arm_2_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Arm_3_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Arm_3_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Arm_3_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_left_hand_link_PikachuIdleRetarget_Scale0842",
+      "action": "Link_left_hand_link_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_left_hand_link_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Arm_1_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Arm_1_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Arm_1_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Arm_2_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Arm_2_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Arm_2_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Arm_3_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Arm_3_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Arm_3_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_right_hand_link_PikachuIdleRetarget_Scale0842",
+      "action": "Link_right_hand_link_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_right_hand_link_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Hip_Pitch_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Hip_Pitch_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Hip_Pitch_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Hip_Roll_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Hip_Roll_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Hip_Roll_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Hip_Yaw_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Hip_Yaw_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Hip_Yaw_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Shank_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Shank_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Shank_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Left_Ankle_Cross_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Left_Ankle_Cross_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Left_Ankle_Cross_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_left_foot_link_PikachuIdleRetarget_Scale0842",
+      "action": "Link_left_foot_link_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_left_foot_link_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Hip_Pitch_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Hip_Pitch_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Hip_Pitch_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Hip_Roll_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Hip_Roll_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Hip_Roll_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Hip_Yaw_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Hip_Yaw_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Hip_Yaw_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Shank_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Shank_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Shank_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_Right_Ankle_Cross_PikachuIdleRetarget_Scale0842",
+      "action": "Link_Right_Ankle_Cross_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_Right_Ankle_Cross_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    },
+    {
+      "object": "Link_right_foot_link_PikachuIdleRetarget_Scale0842",
+      "action": "Link_right_foot_link_PikachuIdleRetarget_Scale0842_IdleScale0842RetargetBake",
+      "frame_range": [
+        0.0,
+        49.0
+      ],
+      "assigned_action_before": "Link_right_foot_link_PikachuIdleRetarget_Scale0842_IdleScale0842PingPongLoop"
+    }
+  ],
+  "source_action_count": 23,
+  "source_bake_status": "complete",
+  "source_bake_frames": "0-49",
+  "scene_fps": 24.0,
+  "sample_rate_hz": 50,
+  "csv_path": "/mnt/ssd2/booster/booster_assets/motions/K1/k1_pikachu_idle_scale0842_pingpong_tile3_blender50_hold0p5.csv",
+  "grounded_csv_path": "/mnt/ssd2/booster/booster_assets/motions/K1/k1_pikachu_idle_scale0842_pingpong_tile3_blender50_grounded_hold0p5.csv",
+  "tile_cycles": 3,
+  "hold_samples_each_end": 25,
+  "cycle_intervals": 204,
+  "cycle_samples": 205,
+  "cycle_duration_s": 4.08,
+  "samples": 665,
+  "duration_s": 13.28,
+  "cycle_boundary_sample_indices": [
+    230,
+    435
+  ],
+  "boundary_checks": [
+    {
+      "boundary_sample_index": 230,
+      "previous_to_boundary_root_pos_delta_m": 0.0,
+      "previous_to_boundary_max_joint_abs_delta_rad": 0.0
+    },
+    {
+      "boundary_sample_index": 435,
+      "previous_to_boundary_root_pos_delta_m": 0.0,
+      "previous_to_boundary_max_joint_abs_delta_rad": 0.0
+    }
+  ],
+  "hold_boundary_checks": {
+    "prefix_to_motion_root_pos_delta_m": 0.0,
+    "prefix_to_motion_max_joint_abs_delta_rad": 0.0,
+    "motion_to_suffix_root_pos_delta_m": 0.0,
+    "motion_to_suffix_max_joint_abs_delta_rad": 0.0
+  },
+  "sampling_note": "The exporter leaves the baked 0-49 actions assigned and maps a virtual 0-98 ping-pong frame onto the source range. Blender evaluates every fractional source frame; CSV values are not interpolated by this script. No .blend is saved.",
+  "columns": [
+    "root_x",
+    "root_y",
+    "root_z",
+    "root_qx",
+    "root_qy",
+    "root_qz",
+    "root_qw",
+    "AAHead_yaw",
+    "Head_pitch",
+    "ALeft_Shoulder_Pitch",
+    "Left_Shoulder_Roll",
+    "Left_Elbow_Pitch",
+    "Left_Elbow_Yaw",
+    "ARight_Shoulder_Pitch",
+    "Right_Shoulder_Roll",
+    "Right_Elbow_Pitch",
+    "Right_Elbow_Yaw",
+    "Left_Hip_Pitch",
+    "Left_Hip_Roll",
+    "Left_Hip_Yaw",
+    "Left_Knee_Pitch",
+    "Left_Ankle_Pitch",
+    "Left_Ankle_Roll",
+    "Right_Hip_Pitch",
+    "Right_Hip_Roll",
+    "Right_Hip_Yaw",
+    "Right_Knee_Pitch",
+    "Right_Ankle_Pitch",
+    "Right_Ankle_Roll"
+  ],
+  "nan_inf_count": 0,
+  "ground_check": {
+    "ground_z": 0.0,
+    "tolerance_m": 1e-05,
+    "min_all_mesh_z": 0.00723825441673398,
+    "min_left_foot_z": 0.011166074313223362,
+    "min_right_foot_z": 0.00723825441673398,
+    "all_mesh_penetration_m": 0.0,
+    "left_foot_penetration_m": 0.0,
+    "right_foot_penetration_m": 0.0,
+    "grounded_root_z_offset_m": 0.0
+  },
+  "joint_ranges_rad": {
+    "AAHead_yaw": {
+      "min": 0.052149172872304916,
+      "max": 0.18714915215969086
+    },
+    "Head_pitch": {
+      "min": -0.3490000069141388,
+      "max": -0.3490000069141388
+    },
+    "ALeft_Shoulder_Pitch": {
+      "min": -1.1963608264923096,
+      "max": -1.097394585609436
+    },
+    "Left_Shoulder_Roll": {
+      "min": -1.7400000095367432,
+      "max": -1.7400000095367432
+    },
+    "Left_Elbow_Pitch": {
+      "min": -2.2699999809265137,
+      "max": -2.2699999809265137
+    },
+    "Left_Elbow_Yaw": {
+      "min": -1.3420851230621338,
+      "max": -1.261592149734497
+    },
+    "ARight_Shoulder_Pitch": {
+      "min": -1.1376293897628784,
+      "max": -1.0376291275024414
+    },
+    "Right_Shoulder_Roll": {
+      "min": 1.7400000095367432,
+      "max": 1.7400000095367432
+    },
+    "Right_Elbow_Pitch": {
+      "min": -2.2699999809265137,
+      "max": -2.2699999809265137
+    },
+    "Right_Elbow_Yaw": {
+      "min": 1.2564042806625366,
+      "max": 1.326993703842163
+    },
+    "Left_Hip_Pitch": {
+      "min": -0.9794644713401794,
+      "max": -0.9209756851196289
+    },
+    "Left_Hip_Roll": {
+      "min": 0.5054307579994202,
+      "max": 0.5552297830581665
+    },
+    "Left_Hip_Yaw": {
+      "min": 0.08050761371850967,
+      "max": 0.11860667169094086
+    },
+    "Left_Knee_Pitch": {
+      "min": 1.369813323020935,
+      "max": 1.45481276512146
+    },
+    "Left_Ankle_Pitch": {
+      "min": -0.46049994230270386,
+      "max": -0.35900217294692993
+    },
+    "Left_Ankle_Roll": {
+      "min": -0.2913734018802643,
+      "max": -0.2028380036354065
+    },
+    "Right_Hip_Pitch": {
+      "min": -0.9116445779800415,
+      "max": -0.821677029132843
+    },
+    "Right_Hip_Roll": {
+      "min": -0.6089286804199219,
+      "max": -0.5719397068023682
+    },
+    "Right_Hip_Yaw": {
+      "min": -0.08445598185062408,
+      "max": 0.009012644179165363
+    },
+    "Right_Knee_Pitch": {
+      "min": 1.33785879611969,
+      "max": 1.4613584280014038
+    },
+    "Right_Ankle_Pitch": {
+      "min": -0.5609056353569031,
+      "max": -0.43900004029273987
+    },
+    "Right_Ankle_Roll": {
+      "min": 0.3064999282360077,
+      "max": 0.3449999988079071
+    }
+  },
+  "joint_limit_violations": [],
+  "joint_limit_contacts": {
+    "AAHead_yaw": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Head_pitch": {
+      "lower": 205,
+      "upper": 0
+    },
+    "ALeft_Shoulder_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Shoulder_Roll": {
+      "lower": 205,
+      "upper": 0
+    },
+    "Left_Elbow_Pitch": {
+      "lower": 205,
+      "upper": 0
+    },
+    "Left_Elbow_Yaw": {
+      "lower": 0,
+      "upper": 0
+    },
+    "ARight_Shoulder_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Shoulder_Roll": {
+      "lower": 0,
+      "upper": 205
+    },
+    "Right_Elbow_Pitch": {
+      "lower": 205,
+      "upper": 0
+    },
+    "Right_Elbow_Yaw": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Hip_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Hip_Roll": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Hip_Yaw": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Knee_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Ankle_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Left_Ankle_Roll": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Hip_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Hip_Roll": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Hip_Yaw": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Knee_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Ankle_Pitch": {
+      "lower": 0,
+      "upper": 0
+    },
+    "Right_Ankle_Roll": {
+      "lower": 0,
+      "upper": 85
+    }
+  },
+  "cycle_sample_reports": [
+    {
+      "sample": 0,
+      "time_s": 0.0,
+      "virtual_frame": 0.0,
+      "source_frame": 0.0,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009324938990175724,
+      "all_mesh_max_z": 0.8521289825439453,
+      "left_foot_min_z": 0.012132901698350906,
+      "right_foot_min_z": 0.009324938990175724
+    },
+    {
+      "sample": 1,
+      "time_s": 0.02,
+      "virtual_frame": 0.4803921568627451,
+      "source_frame": 0.4803921568627451,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010361653752624989,
+      "all_mesh_max_z": 0.8521289229393005,
+      "left_foot_min_z": 0.012358929961919785,
+      "right_foot_min_z": 0.010361653752624989
+    },
+    {
+      "sample": 2,
+      "time_s": 0.04,
+      "virtual_frame": 0.9607843137254902,
+      "source_frame": 0.9607843137254902,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009533446282148361,
+      "all_mesh_max_z": 0.8521287441253662,
+      "left_foot_min_z": 0.012435564771294594,
+      "right_foot_min_z": 0.009533446282148361
+    },
+    {
+      "sample": 3,
+      "time_s": 0.06,
+      "virtual_frame": 1.4411764705882353,
+      "source_frame": 1.4411764705882353,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009585171937942505,
+      "all_mesh_max_z": 0.8521273136138916,
+      "left_foot_min_z": 0.012677979655563831,
+      "right_foot_min_z": 0.009585171937942505
+    },
+    {
+      "sample": 4,
+      "time_s": 0.08,
+      "virtual_frame": 1.9215686274509804,
+      "source_frame": 1.9215686274509804,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009707415476441383,
+      "all_mesh_max_z": 0.8521239161491394,
+      "left_foot_min_z": 0.012756581418216228,
+      "right_foot_min_z": 0.009707415476441383
+    },
+    {
+      "sample": 5,
+      "time_s": 0.1,
+      "virtual_frame": 2.4019607843137254,
+      "source_frame": 2.4019607843137254,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009708307683467865,
+      "all_mesh_max_z": 0.8521308898925781,
+      "left_foot_min_z": 0.012867334298789501,
+      "right_foot_min_z": 0.009708307683467865
+    },
+    {
+      "sample": 6,
+      "time_s": 0.12,
+      "virtual_frame": 2.8823529411764706,
+      "source_frame": 2.8823529411764706,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009782599285244942,
+      "all_mesh_max_z": 0.8521445989608765,
+      "left_foot_min_z": 0.01281548012048006,
+      "right_foot_min_z": 0.009782599285244942
+    },
+    {
+      "sample": 7,
+      "time_s": 0.14,
+      "virtual_frame": 3.3627450980392157,
+      "source_frame": 3.3627450980392157,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010143021121621132,
+      "all_mesh_max_z": 0.8521410226821899,
+      "left_foot_min_z": 0.012588134035468102,
+      "right_foot_min_z": 0.010143021121621132
+    },
+    {
+      "sample": 8,
+      "time_s": 0.16,
+      "virtual_frame": 3.843137254901961,
+      "source_frame": 3.843137254901961,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010235758498311043,
+      "all_mesh_max_z": 0.8521345257759094,
+      "left_foot_min_z": 0.012454438023269176,
+      "right_foot_min_z": 0.010235758498311043
+    },
+    {
+      "sample": 9,
+      "time_s": 0.18,
+      "virtual_frame": 4.323529411764706,
+      "source_frame": 4.323529411764706,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010214319452643394,
+      "all_mesh_max_z": 0.8521334528923035,
+      "left_foot_min_z": 0.01233789324760437,
+      "right_foot_min_z": 0.010214319452643394
+    },
+    {
+      "sample": 10,
+      "time_s": 0.2,
+      "virtual_frame": 4.803921568627451,
+      "source_frame": 4.803921568627451,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010087979957461357,
+      "all_mesh_max_z": 0.8521448969841003,
+      "left_foot_min_z": 0.012334471568465233,
+      "right_foot_min_z": 0.010087979957461357
+    },
+    {
+      "sample": 11,
+      "time_s": 0.22,
+      "virtual_frame": 5.284313725490196,
+      "source_frame": 5.284313725490196,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010067547671496868,
+      "all_mesh_max_z": 0.8521468043327332,
+      "left_foot_min_z": 0.012244535610079765,
+      "right_foot_min_z": 0.010067547671496868
+    },
+    {
+      "sample": 12,
+      "time_s": 0.24,
+      "virtual_frame": 5.764705882352941,
+      "source_frame": 5.764705882352941,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010067547671496868,
+      "all_mesh_max_z": 0.8521468043327332,
+      "left_foot_min_z": 0.012201388366520405,
+      "right_foot_min_z": 0.010067547671496868
+    },
+    {
+      "sample": 13,
+      "time_s": 0.26,
+      "virtual_frame": 6.245098039215686,
+      "source_frame": 6.245098039215686,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010050785727798939,
+      "all_mesh_max_z": 0.8521457314491272,
+      "left_foot_min_z": 0.012117395177483559,
+      "right_foot_min_z": 0.010050785727798939
+    },
+    {
+      "sample": 14,
+      "time_s": 0.28,
+      "virtual_frame": 6.7254901960784315,
+      "source_frame": 6.7254901960784315,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010000575333833694,
+      "all_mesh_max_z": 0.8521386384963989,
+      "left_foot_min_z": 0.012174593284726143,
+      "right_foot_min_z": 0.010000575333833694
+    },
+    {
+      "sample": 15,
+      "time_s": 0.3,
+      "virtual_frame": 7.205882352941177,
+      "source_frame": 7.205882352941177,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010093473829329014,
+      "all_mesh_max_z": 0.8521323800086975,
+      "left_foot_min_z": 0.012283490970730782,
+      "right_foot_min_z": 0.010093473829329014
+    },
+    {
+      "sample": 16,
+      "time_s": 0.32,
+      "virtual_frame": 7.686274509803922,
+      "source_frame": 7.686274509803922,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010216489434242249,
+      "all_mesh_max_z": 0.8521414399147034,
+      "left_foot_min_z": 0.012374336831271648,
+      "right_foot_min_z": 0.010216489434242249
+    },
+    {
+      "sample": 17,
+      "time_s": 0.34,
+      "virtual_frame": 8.166666666666666,
+      "source_frame": 8.166666666666666,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010157114826142788,
+      "all_mesh_max_z": 0.8521419167518616,
+      "left_foot_min_z": 0.012394373305141926,
+      "right_foot_min_z": 0.010157114826142788
+    },
+    {
+      "sample": 18,
+      "time_s": 0.36,
+      "virtual_frame": 8.647058823529411,
+      "source_frame": 8.647058823529411,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010001708753407001,
+      "all_mesh_max_z": 0.8521381616592407,
+      "left_foot_min_z": 0.012467346154153347,
+      "right_foot_min_z": 0.010001708753407001
+    },
+    {
+      "sample": 19,
+      "time_s": 0.38,
+      "virtual_frame": 9.127450980392156,
+      "source_frame": 9.127450980392156,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009672681801021099,
+      "all_mesh_max_z": 0.8521278500556946,
+      "left_foot_min_z": 0.012530497275292873,
+      "right_foot_min_z": 0.009672681801021099
+    },
+    {
+      "sample": 20,
+      "time_s": 0.4,
+      "virtual_frame": 9.607843137254902,
+      "source_frame": 9.607843137254902,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009242644533514977,
+      "all_mesh_max_z": 0.852109432220459,
+      "left_foot_min_z": 0.012489565648138523,
+      "right_foot_min_z": 0.009242644533514977
+    },
+    {
+      "sample": 21,
+      "time_s": 0.42,
+      "virtual_frame": 10.088235294117647,
+      "source_frame": 10.088235294117647,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008897755295038223,
+      "all_mesh_max_z": 0.8521037697792053,
+      "left_foot_min_z": 0.01246781274676323,
+      "right_foot_min_z": 0.008897755295038223
+    },
+    {
+      "sample": 22,
+      "time_s": 0.44,
+      "virtual_frame": 10.568627450980392,
+      "source_frame": 10.568627450980392,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008660879917442799,
+      "all_mesh_max_z": 0.8521116375923157,
+      "left_foot_min_z": 0.012636198662221432,
+      "right_foot_min_z": 0.008660879917442799
+    },
+    {
+      "sample": 23,
+      "time_s": 0.46,
+      "virtual_frame": 11.049019607843137,
+      "source_frame": 11.049019607843137,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008554711937904358,
+      "all_mesh_max_z": 0.8521227836608887,
+      "left_foot_min_z": 0.012671029195189476,
+      "right_foot_min_z": 0.008554711937904358
+    },
+    {
+      "sample": 24,
+      "time_s": 0.48,
+      "virtual_frame": 11.529411764705882,
+      "source_frame": 11.529411764705882,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008614263497292995,
+      "all_mesh_max_z": 0.8521275520324707,
+      "left_foot_min_z": 0.012398417107760906,
+      "right_foot_min_z": 0.008614263497292995
+    },
+    {
+      "sample": 25,
+      "time_s": 0.5,
+      "virtual_frame": 12.009803921568627,
+      "source_frame": 12.009803921568627,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008619852364063263,
+      "all_mesh_max_z": 0.8521303534507751,
+      "left_foot_min_z": 0.0122026102617383,
+      "right_foot_min_z": 0.008619852364063263
+    },
+    {
+      "sample": 26,
+      "time_s": 0.52,
+      "virtual_frame": 12.490196078431373,
+      "source_frame": 12.490196078431373,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008354230783879757,
+      "all_mesh_max_z": 0.8521373271942139,
+      "left_foot_min_z": 0.012268684804439545,
+      "right_foot_min_z": 0.008354230783879757
+    },
+    {
+      "sample": 27,
+      "time_s": 0.54,
+      "virtual_frame": 12.970588235294118,
+      "source_frame": 12.970588235294118,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008324184454977512,
+      "all_mesh_max_z": 0.8521413803100586,
+      "left_foot_min_z": 0.01231461577117443,
+      "right_foot_min_z": 0.008324184454977512
+    },
+    {
+      "sample": 28,
+      "time_s": 0.56,
+      "virtual_frame": 13.450980392156863,
+      "source_frame": 13.450980392156863,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008656738325953484,
+      "all_mesh_max_z": 0.8521402478218079,
+      "left_foot_min_z": 0.012167262844741344,
+      "right_foot_min_z": 0.008656738325953484
+    },
+    {
+      "sample": 29,
+      "time_s": 0.58,
+      "virtual_frame": 13.931372549019608,
+      "source_frame": 13.931372549019608,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008973604068160057,
+      "all_mesh_max_z": 0.852135181427002,
+      "left_foot_min_z": 0.012010629288852215,
+      "right_foot_min_z": 0.008973604068160057
+    },
+    {
+      "sample": 30,
+      "time_s": 0.6,
+      "virtual_frame": 14.411764705882353,
+      "source_frame": 14.411764705882353,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009235166944563389,
+      "all_mesh_max_z": 0.8521320223808289,
+      "left_foot_min_z": 0.012077580206096172,
+      "right_foot_min_z": 0.009235166944563389
+    },
+    {
+      "sample": 31,
+      "time_s": 0.62,
+      "virtual_frame": 14.892156862745098,
+      "source_frame": 14.892156862745098,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009210141375660896,
+      "all_mesh_max_z": 0.8521288633346558,
+      "left_foot_min_z": 0.012365416623651981,
+      "right_foot_min_z": 0.009210141375660896
+    },
+    {
+      "sample": 32,
+      "time_s": 0.64,
+      "virtual_frame": 15.372549019607844,
+      "source_frame": 15.372549019607844,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009073097258806229,
+      "all_mesh_max_z": 0.8521168231964111,
+      "left_foot_min_z": 0.012589373625814915,
+      "right_foot_min_z": 0.009073097258806229
+    },
+    {
+      "sample": 33,
+      "time_s": 0.66,
+      "virtual_frame": 15.852941176470589,
+      "source_frame": 15.852941176470589,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008993307128548622,
+      "all_mesh_max_z": 0.8521137237548828,
+      "left_foot_min_z": 0.012613218277692795,
+      "right_foot_min_z": 0.008993307128548622
+    },
+    {
+      "sample": 34,
+      "time_s": 0.68,
+      "virtual_frame": 16.333333333333332,
+      "source_frame": 16.333333333333332,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009048542939126492,
+      "all_mesh_max_z": 0.8521102666854858,
+      "left_foot_min_z": 0.012612410821020603,
+      "right_foot_min_z": 0.009048542939126492
+    },
+    {
+      "sample": 35,
+      "time_s": 0.7,
+      "virtual_frame": 16.813725490196077,
+      "source_frame": 16.813725490196077,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009164121933281422,
+      "all_mesh_max_z": 0.8521036505699158,
+      "left_foot_min_z": 0.012633360922336578,
+      "right_foot_min_z": 0.009164121933281422
+    },
+    {
+      "sample": 36,
+      "time_s": 0.72,
+      "virtual_frame": 17.294117647058822,
+      "source_frame": 17.294117647058822,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.00908021628856659,
+      "all_mesh_max_z": 0.8520956635475159,
+      "left_foot_min_z": 0.012650707736611366,
+      "right_foot_min_z": 0.00908021628856659
+    },
+    {
+      "sample": 37,
+      "time_s": 0.74,
+      "virtual_frame": 17.774509803921568,
+      "source_frame": 17.774509803921568,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.00876609142869711,
+      "all_mesh_max_z": 0.8520880937576294,
+      "left_foot_min_z": 0.01253995019942522,
+      "right_foot_min_z": 0.00876609142869711
+    },
+    {
+      "sample": 38,
+      "time_s": 0.76,
+      "virtual_frame": 18.254901960784313,
+      "source_frame": 18.254901960784313,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008427813649177551,
+      "all_mesh_max_z": 0.8520823121070862,
+      "left_foot_min_z": 0.012367143295705318,
+      "right_foot_min_z": 0.008427813649177551
+    },
+    {
+      "sample": 39,
+      "time_s": 0.78,
+      "virtual_frame": 18.735294117647058,
+      "source_frame": 18.735294117647058,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008437699638307095,
+      "all_mesh_max_z": 0.8520758152008057,
+      "left_foot_min_z": 0.012545321136713028,
+      "right_foot_min_z": 0.008437699638307095
+    },
+    {
+      "sample": 40,
+      "time_s": 0.8,
+      "virtual_frame": 19.215686274509803,
+      "source_frame": 19.215686274509803,
+      "root_z": 0.45026102662086487,
+      "all_mesh_min_z": 0.008717394433915615,
+      "all_mesh_max_z": 0.8518251180648804,
+      "left_foot_min_z": 0.012632610276341438,
+      "right_foot_min_z": 0.008717394433915615
+    },
+    {
+      "sample": 41,
+      "time_s": 0.82,
+      "virtual_frame": 19.69607843137255,
+      "source_frame": 19.69607843137255,
+      "root_z": 0.4489419460296631,
+      "all_mesh_min_z": 0.008080802857875824,
+      "all_mesh_max_z": 0.8504946827888489,
+      "left_foot_min_z": 0.012047181837260723,
+      "right_foot_min_z": 0.008080802857875824
+    },
+    {
+      "sample": 42,
+      "time_s": 0.84,
+      "virtual_frame": 20.176470588235293,
+      "source_frame": 20.176470588235293,
+      "root_z": 0.44850000739097595,
+      "all_mesh_min_z": 0.007953193970024586,
+      "all_mesh_max_z": 0.8500367403030396,
+      "left_foot_min_z": 0.012194200418889523,
+      "right_foot_min_z": 0.007953193970024586
+    },
+    {
+      "sample": 43,
+      "time_s": 0.86,
+      "virtual_frame": 20.65686274509804,
+      "source_frame": 20.65686274509804,
+      "root_z": 0.44850000739097595,
+      "all_mesh_min_z": 0.007858406752347946,
+      "all_mesh_max_z": 0.8500186800956726,
+      "left_foot_min_z": 0.012721681036055088,
+      "right_foot_min_z": 0.007858406752347946
+    },
+    {
+      "sample": 44,
+      "time_s": 0.88,
+      "virtual_frame": 21.137254901960784,
+      "source_frame": 21.137254901960784,
+      "root_z": 0.44839730858802795,
+      "all_mesh_min_z": 0.007796076592057943,
+      "all_mesh_max_z": 0.849880576133728,
+      "left_foot_min_z": 0.01368627231568098,
+      "right_foot_min_z": 0.007796076592057943
+    },
+    {
+      "sample": 45,
+      "time_s": 0.9,
+      "virtual_frame": 21.61764705882353,
+      "source_frame": 21.61764705882353,
+      "root_z": 0.44715356826782227,
+      "all_mesh_min_z": 0.00723825441673398,
+      "all_mesh_max_z": 0.8485848903656006,
+      "left_foot_min_z": 0.01377376914024353,
+      "right_foot_min_z": 0.00723825441673398
+    },
+    {
+      "sample": 46,
+      "time_s": 0.92,
+      "virtual_frame": 22.098039215686274,
+      "source_frame": 22.098039215686274,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.0077631487511098385,
+      "all_mesh_max_z": 0.8479106426239014,
+      "left_foot_min_z": 0.01331237144768238,
+      "right_foot_min_z": 0.0077631487511098385
+    },
+    {
+      "sample": 47,
+      "time_s": 0.94,
+      "virtual_frame": 22.57843137254902,
+      "source_frame": 22.57843137254902,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.008804029785096645,
+      "all_mesh_max_z": 0.8479135632514954,
+      "left_foot_min_z": 0.013449595309793949,
+      "right_foot_min_z": 0.008804029785096645
+    },
+    {
+      "sample": 48,
+      "time_s": 0.96,
+      "virtual_frame": 23.058823529411764,
+      "source_frame": 23.058823529411764,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009158832021057606,
+      "all_mesh_max_z": 0.8479174971580505,
+      "left_foot_min_z": 0.013531384989619255,
+      "right_foot_min_z": 0.009158832021057606
+    },
+    {
+      "sample": 49,
+      "time_s": 0.98,
+      "virtual_frame": 23.53921568627451,
+      "source_frame": 23.53921568627451,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00907914899289608,
+      "all_mesh_max_z": 0.8479199409484863,
+      "left_foot_min_z": 0.013682994991540909,
+      "right_foot_min_z": 0.00907914899289608
+    },
+    {
+      "sample": 50,
+      "time_s": 1.0,
+      "virtual_frame": 24.019607843137255,
+      "source_frame": 24.019607843137255,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009015295654535294,
+      "all_mesh_max_z": 0.8479220271110535,
+      "left_foot_min_z": 0.013798529282212257,
+      "right_foot_min_z": 0.009015295654535294
+    },
+    {
+      "sample": 51,
+      "time_s": 1.02,
+      "virtual_frame": 24.5,
+      "source_frame": 24.5,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009067162871360779,
+      "all_mesh_max_z": 0.8479248881340027,
+      "left_foot_min_z": 0.013518426567316055,
+      "right_foot_min_z": 0.009067162871360779
+    },
+    {
+      "sample": 52,
+      "time_s": 1.04,
+      "virtual_frame": 24.980392156862745,
+      "source_frame": 24.980392156862745,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009156817570328712,
+      "all_mesh_max_z": 0.8479281663894653,
+      "left_foot_min_z": 0.013329466804862022,
+      "right_foot_min_z": 0.009156817570328712
+    },
+    {
+      "sample": 53,
+      "time_s": 1.06,
+      "virtual_frame": 25.46078431372549,
+      "source_frame": 25.46078431372549,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00952626671642065,
+      "all_mesh_max_z": 0.8479307293891907,
+      "left_foot_min_z": 0.013172509148716927,
+      "right_foot_min_z": 0.00952626671642065
+    },
+    {
+      "sample": 54,
+      "time_s": 1.08,
+      "virtual_frame": 25.941176470588236,
+      "source_frame": 25.941176470588236,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00994373019784689,
+      "all_mesh_max_z": 0.8479328155517578,
+      "left_foot_min_z": 0.013011296279728413,
+      "right_foot_min_z": 0.00994373019784689
+    },
+    {
+      "sample": 55,
+      "time_s": 1.1,
+      "virtual_frame": 26.42156862745098,
+      "source_frame": 26.42156862745098,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009814975783228874,
+      "all_mesh_max_z": 0.8479318022727966,
+      "left_foot_min_z": 0.012704886496067047,
+      "right_foot_min_z": 0.009814975783228874
+    },
+    {
+      "sample": 56,
+      "time_s": 1.12,
+      "virtual_frame": 26.901960784313726,
+      "source_frame": 26.901960784313726,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009623934514820576,
+      "all_mesh_max_z": 0.8479228615760803,
+      "left_foot_min_z": 0.012344582937657833,
+      "right_foot_min_z": 0.009623934514820576
+    },
+    {
+      "sample": 57,
+      "time_s": 1.14,
+      "virtual_frame": 27.38235294117647,
+      "source_frame": 27.38235294117647,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010012499056756496,
+      "all_mesh_max_z": 0.8479035496711731,
+      "left_foot_min_z": 0.012187215499579906,
+      "right_foot_min_z": 0.010012499056756496
+    },
+    {
+      "sample": 58,
+      "time_s": 1.16,
+      "virtual_frame": 27.862745098039216,
+      "source_frame": 27.862745098039216,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010654402896761894,
+      "all_mesh_max_z": 0.8478862047195435,
+      "left_foot_min_z": 0.012313047423958778,
+      "right_foot_min_z": 0.010654402896761894
+    },
+    {
+      "sample": 59,
+      "time_s": 1.18,
+      "virtual_frame": 28.34313725490196,
+      "source_frame": 28.34313725490196,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01073428150266409,
+      "all_mesh_max_z": 0.8478847146034241,
+      "left_foot_min_z": 0.012505645863711834,
+      "right_foot_min_z": 0.01073428150266409
+    },
+    {
+      "sample": 60,
+      "time_s": 1.2,
+      "virtual_frame": 28.823529411764707,
+      "source_frame": 28.823529411764707,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01074187271296978,
+      "all_mesh_max_z": 0.8478838205337524,
+      "left_foot_min_z": 0.012522218748927116,
+      "right_foot_min_z": 0.01074187271296978
+    },
+    {
+      "sample": 61,
+      "time_s": 1.22,
+      "virtual_frame": 29.30392156862745,
+      "source_frame": 29.30392156862745,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010713299736380577,
+      "all_mesh_max_z": 0.8478788733482361,
+      "left_foot_min_z": 0.012563234195113182,
+      "right_foot_min_z": 0.010713299736380577
+    },
+    {
+      "sample": 62,
+      "time_s": 1.24,
+      "virtual_frame": 29.784313725490197,
+      "source_frame": 29.784313725490197,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010594798251986504,
+      "all_mesh_max_z": 0.8478651642799377,
+      "left_foot_min_z": 0.012598126195371151,
+      "right_foot_min_z": 0.010594798251986504
+    },
+    {
+      "sample": 63,
+      "time_s": 1.26,
+      "virtual_frame": 30.264705882352942,
+      "source_frame": 30.264705882352942,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010492555797100067,
+      "all_mesh_max_z": 0.8478620648384094,
+      "left_foot_min_z": 0.012632796540856361,
+      "right_foot_min_z": 0.010492555797100067
+    },
+    {
+      "sample": 64,
+      "time_s": 1.28,
+      "virtual_frame": 30.745098039215687,
+      "source_frame": 30.745098039215687,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010509762912988663,
+      "all_mesh_max_z": 0.8478608131408691,
+      "left_foot_min_z": 0.012731312774121761,
+      "right_foot_min_z": 0.010509762912988663
+    },
+    {
+      "sample": 65,
+      "time_s": 1.3,
+      "virtual_frame": 31.225490196078432,
+      "source_frame": 31.225490196078432,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010622454807162285,
+      "all_mesh_max_z": 0.8478531241416931,
+      "left_foot_min_z": 0.012848230078816414,
+      "right_foot_min_z": 0.010622454807162285
+    },
+    {
+      "sample": 66,
+      "time_s": 1.32,
+      "virtual_frame": 31.705882352941178,
+      "source_frame": 31.705882352941178,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01093608420342207,
+      "all_mesh_max_z": 0.8478219509124756,
+      "left_foot_min_z": 0.01287446916103363,
+      "right_foot_min_z": 0.01093608420342207
+    },
+    {
+      "sample": 67,
+      "time_s": 1.34,
+      "virtual_frame": 32.18627450980392,
+      "source_frame": 32.18627450980392,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011024936102330685,
+      "all_mesh_max_z": 0.8478134274482727,
+      "left_foot_min_z": 0.013050385750830173,
+      "right_foot_min_z": 0.011024936102330685
+    },
+    {
+      "sample": 68,
+      "time_s": 1.36,
+      "virtual_frame": 32.666666666666664,
+      "source_frame": 32.666666666666664,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01100502721965313,
+      "all_mesh_max_z": 0.8478280901908875,
+      "left_foot_min_z": 0.012983899563550949,
+      "right_foot_min_z": 0.01100502721965313
+    },
+    {
+      "sample": 69,
+      "time_s": 1.38,
+      "virtual_frame": 33.14705882352941,
+      "source_frame": 33.14705882352941,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011060811579227448,
+      "all_mesh_max_z": 0.847846508026123,
+      "left_foot_min_z": 0.012940581887960434,
+      "right_foot_min_z": 0.011060811579227448
+    },
+    {
+      "sample": 70,
+      "time_s": 1.4,
+      "virtual_frame": 33.627450980392155,
+      "source_frame": 33.627450980392155,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011271226219832897,
+      "all_mesh_max_z": 0.8478600978851318,
+      "left_foot_min_z": 0.012796632014214993,
+      "right_foot_min_z": 0.011271226219832897
+    },
+    {
+      "sample": 71,
+      "time_s": 1.42,
+      "virtual_frame": 34.1078431372549,
+      "source_frame": 34.1078431372549,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011452488601207733,
+      "all_mesh_max_z": 0.8478698134422302,
+      "left_foot_min_z": 0.012737015262246132,
+      "right_foot_min_z": 0.011452488601207733
+    },
+    {
+      "sample": 72,
+      "time_s": 1.44,
+      "virtual_frame": 34.588235294117645,
+      "source_frame": 34.588235294117645,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011519838124513626,
+      "all_mesh_max_z": 0.847878634929657,
+      "left_foot_min_z": 0.012578131631016731,
+      "right_foot_min_z": 0.011519838124513626
+    },
+    {
+      "sample": 73,
+      "time_s": 1.46,
+      "virtual_frame": 35.068627450980394,
+      "source_frame": 35.068627450980394,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011700288392603397,
+      "all_mesh_max_z": 0.8478935360908508,
+      "left_foot_min_z": 0.012441093102097511,
+      "right_foot_min_z": 0.011700288392603397
+    },
+    {
+      "sample": 74,
+      "time_s": 1.48,
+      "virtual_frame": 35.549019607843135,
+      "source_frame": 35.549019607843135,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012191199697554111,
+      "all_mesh_max_z": 0.8479164838790894,
+      "left_foot_min_z": 0.012266597710549831,
+      "right_foot_min_z": 0.012191199697554111
+    },
+    {
+      "sample": 75,
+      "time_s": 1.5,
+      "virtual_frame": 36.029411764705884,
+      "source_frame": 36.029411764705884,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01211380772292614,
+      "all_mesh_max_z": 0.8479394316673279,
+      "left_foot_min_z": 0.01211380772292614,
+      "right_foot_min_z": 0.012730678543448448
+    },
+    {
+      "sample": 76,
+      "time_s": 1.52,
+      "virtual_frame": 36.509803921568626,
+      "source_frame": 36.509803921568626,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012223340570926666,
+      "all_mesh_max_z": 0.8479576706886292,
+      "left_foot_min_z": 0.012223340570926666,
+      "right_foot_min_z": 0.013013492338359356
+    },
+    {
+      "sample": 77,
+      "time_s": 1.54,
+      "virtual_frame": 36.990196078431374,
+      "source_frame": 36.990196078431374,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012293295934796333,
+      "all_mesh_max_z": 0.8479776382446289,
+      "left_foot_min_z": 0.012293295934796333,
+      "right_foot_min_z": 0.013268661685287952
+    },
+    {
+      "sample": 78,
+      "time_s": 1.56,
+      "virtual_frame": 37.470588235294116,
+      "source_frame": 37.470588235294116,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01225043460726738,
+      "all_mesh_max_z": 0.8480027914047241,
+      "left_foot_min_z": 0.01225043460726738,
+      "right_foot_min_z": 0.013243039138615131
+    },
+    {
+      "sample": 79,
+      "time_s": 1.58,
+      "virtual_frame": 37.950980392156865,
+      "source_frame": 37.950980392156865,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012157462537288666,
+      "all_mesh_max_z": 0.8480261564254761,
+      "left_foot_min_z": 0.012157462537288666,
+      "right_foot_min_z": 0.013019012287259102
+    },
+    {
+      "sample": 80,
+      "time_s": 1.6,
+      "virtual_frame": 38.431372549019606,
+      "source_frame": 38.431372549019606,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012028798460960388,
+      "all_mesh_max_z": 0.8480421900749207,
+      "left_foot_min_z": 0.012028798460960388,
+      "right_foot_min_z": 0.012969586998224258
+    },
+    {
+      "sample": 81,
+      "time_s": 1.62,
+      "virtual_frame": 38.911764705882355,
+      "source_frame": 38.911764705882355,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011963389813899994,
+      "all_mesh_max_z": 0.8480520248413086,
+      "left_foot_min_z": 0.011963389813899994,
+      "right_foot_min_z": 0.013086703605949879
+    },
+    {
+      "sample": 82,
+      "time_s": 1.64,
+      "virtual_frame": 39.3921568627451,
+      "source_frame": 39.3921568627451,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011953859589993954,
+      "all_mesh_max_z": 0.84805828332901,
+      "left_foot_min_z": 0.011953859589993954,
+      "right_foot_min_z": 0.01322355680167675
+    },
+    {
+      "sample": 83,
+      "time_s": 1.66,
+      "virtual_frame": 39.872549019607845,
+      "source_frame": 39.872549019607845,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011900864541530609,
+      "all_mesh_max_z": 0.8480626344680786,
+      "left_foot_min_z": 0.011900864541530609,
+      "right_foot_min_z": 0.013270384632050991
+    },
+    {
+      "sample": 84,
+      "time_s": 1.68,
+      "virtual_frame": 40.35294117647059,
+      "source_frame": 40.35294117647059,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012074909172952175,
+      "all_mesh_max_z": 0.8480658531188965,
+      "left_foot_min_z": 0.012074909172952175,
+      "right_foot_min_z": 0.013142929412424564
+    },
+    {
+      "sample": 85,
+      "time_s": 1.7,
+      "virtual_frame": 40.833333333333336,
+      "source_frame": 40.833333333333336,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012239974923431873,
+      "all_mesh_max_z": 0.8480704426765442,
+      "left_foot_min_z": 0.012239974923431873,
+      "right_foot_min_z": 0.012940516695380211
+    },
+    {
+      "sample": 86,
+      "time_s": 1.72,
+      "virtual_frame": 41.31372549019608,
+      "source_frame": 41.31372549019608,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012074710801243782,
+      "all_mesh_max_z": 0.8480785489082336,
+      "left_foot_min_z": 0.012074710801243782,
+      "right_foot_min_z": 0.012679164297878742
+    },
+    {
+      "sample": 87,
+      "time_s": 1.74,
+      "virtual_frame": 41.794117647058826,
+      "source_frame": 41.794117647058826,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011794976890087128,
+      "all_mesh_max_z": 0.8480867147445679,
+      "left_foot_min_z": 0.011794976890087128,
+      "right_foot_min_z": 0.012368278577923775
+    },
+    {
+      "sample": 88,
+      "time_s": 1.76,
+      "virtual_frame": 42.27450980392157,
+      "source_frame": 42.27450980392157,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01195888128131628,
+      "all_mesh_max_z": 0.8480916619300842,
+      "left_foot_min_z": 0.01195888128131628,
+      "right_foot_min_z": 0.012392032891511917
+    },
+    {
+      "sample": 89,
+      "time_s": 1.78,
+      "virtual_frame": 42.754901960784316,
+      "source_frame": 42.754901960784316,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01236905250698328,
+      "all_mesh_max_z": 0.8480939269065857,
+      "left_foot_min_z": 0.012487529776990414,
+      "right_foot_min_z": 0.01236905250698328
+    },
+    {
+      "sample": 90,
+      "time_s": 1.8,
+      "virtual_frame": 43.23529411764706,
+      "source_frame": 43.23529411764706,
+      "root_z": 0.44621992111206055,
+      "all_mesh_min_z": 0.012299965135753155,
+      "all_mesh_max_z": 0.8478156328201294,
+      "left_foot_min_z": 0.012514058500528336,
+      "right_foot_min_z": 0.012299965135753155
+    },
+    {
+      "sample": 91,
+      "time_s": 1.82,
+      "virtual_frame": 43.71568627450981,
+      "source_frame": 43.71568627450981,
+      "root_z": 0.44489309191703796,
+      "all_mesh_min_z": 0.01079819817095995,
+      "all_mesh_max_z": 0.8464910387992859,
+      "left_foot_min_z": 0.011166074313223362,
+      "right_foot_min_z": 0.01079819817095995
+    },
+    {
+      "sample": 92,
+      "time_s": 1.84,
+      "virtual_frame": 44.19607843137255,
+      "source_frame": 44.19607843137255,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010471023619174957,
+      "all_mesh_max_z": 0.8461005687713623,
+      "left_foot_min_z": 0.01128536369651556,
+      "right_foot_min_z": 0.010471023619174957
+    },
+    {
+      "sample": 93,
+      "time_s": 1.86,
+      "virtual_frame": 44.6764705882353,
+      "source_frame": 44.6764705882353,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.01065172627568245,
+      "all_mesh_max_z": 0.8461025953292847,
+      "left_foot_min_z": 0.012090321630239487,
+      "right_foot_min_z": 0.01065172627568245
+    },
+    {
+      "sample": 94,
+      "time_s": 1.88,
+      "virtual_frame": 45.15686274509804,
+      "source_frame": 45.15686274509804,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010702766478061676,
+      "all_mesh_max_z": 0.8461031317710876,
+      "left_foot_min_z": 0.012320618145167828,
+      "right_foot_min_z": 0.010702766478061676
+    },
+    {
+      "sample": 95,
+      "time_s": 1.9,
+      "virtual_frame": 45.63725490196079,
+      "source_frame": 45.63725490196079,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010702766478061676,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012320618145167828,
+      "right_foot_min_z": 0.010702766478061676
+    },
+    {
+      "sample": 96,
+      "time_s": 1.92,
+      "virtual_frame": 46.11764705882353,
+      "source_frame": 46.11764705882353,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010720479302108288,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012326382100582123,
+      "right_foot_min_z": 0.010720479302108288
+    },
+    {
+      "sample": 97,
+      "time_s": 1.94,
+      "virtual_frame": 46.59803921568628,
+      "source_frame": 46.59803921568628,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011009907349944115,
+      "all_mesh_max_z": 0.8461032509803772,
+      "left_foot_min_z": 0.01242702268064022,
+      "right_foot_min_z": 0.011009907349944115
+    },
+    {
+      "sample": 98,
+      "time_s": 1.96,
+      "virtual_frame": 47.07843137254902,
+      "source_frame": 47.07843137254902,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011237277649343014,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012552056461572647,
+      "right_foot_min_z": 0.011237277649343014
+    },
+    {
+      "sample": 99,
+      "time_s": 1.98,
+      "virtual_frame": 47.55882352941177,
+      "source_frame": 47.55882352941177,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011379899457097054,
+      "all_mesh_max_z": 0.8461049199104309,
+      "left_foot_min_z": 0.012341189198195934,
+      "right_foot_min_z": 0.011379899457097054
+    },
+    {
+      "sample": 100,
+      "time_s": 2.0,
+      "virtual_frame": 48.03921568627451,
+      "source_frame": 48.03921568627451,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011448639445006847,
+      "all_mesh_max_z": 0.8461060523986816,
+      "left_foot_min_z": 0.01213034987449646,
+      "right_foot_min_z": 0.011448639445006847
+    },
+    {
+      "sample": 101,
+      "time_s": 2.02,
+      "virtual_frame": 48.51960784313726,
+      "source_frame": 48.51960784313726,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011448639445006847,
+      "all_mesh_max_z": 0.8461061716079712,
+      "left_foot_min_z": 0.01213034987449646,
+      "right_foot_min_z": 0.011448639445006847
+    },
+    {
+      "sample": 102,
+      "time_s": 2.04,
+      "virtual_frame": 49.0,
+      "source_frame": 49.0,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011448639445006847,
+      "all_mesh_max_z": 0.846106231212616,
+      "left_foot_min_z": 0.01213034987449646,
+      "right_foot_min_z": 0.011448639445006847
+    },
+    {
+      "sample": 103,
+      "time_s": 2.06,
+      "virtual_frame": 49.48039215686275,
+      "source_frame": 48.51960784313725,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011448639445006847,
+      "all_mesh_max_z": 0.8461061716079712,
+      "left_foot_min_z": 0.01213034987449646,
+      "right_foot_min_z": 0.011448639445006847
+    },
+    {
+      "sample": 104,
+      "time_s": 2.08,
+      "virtual_frame": 49.96078431372549,
+      "source_frame": 48.03921568627451,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011448639445006847,
+      "all_mesh_max_z": 0.8461060523986816,
+      "left_foot_min_z": 0.01213034987449646,
+      "right_foot_min_z": 0.011448639445006847
+    },
+    {
+      "sample": 105,
+      "time_s": 2.1,
+      "virtual_frame": 50.44117647058824,
+      "source_frame": 47.55882352941176,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011379899457097054,
+      "all_mesh_max_z": 0.8461049199104309,
+      "left_foot_min_z": 0.012341189198195934,
+      "right_foot_min_z": 0.011379899457097054
+    },
+    {
+      "sample": 106,
+      "time_s": 2.12,
+      "virtual_frame": 50.92156862745098,
+      "source_frame": 47.07843137254902,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011237277649343014,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012552056461572647,
+      "right_foot_min_z": 0.011237277649343014
+    },
+    {
+      "sample": 107,
+      "time_s": 2.14,
+      "virtual_frame": 51.40196078431373,
+      "source_frame": 46.59803921568627,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.011009907349944115,
+      "all_mesh_max_z": 0.8461032509803772,
+      "left_foot_min_z": 0.01242702268064022,
+      "right_foot_min_z": 0.011009907349944115
+    },
+    {
+      "sample": 108,
+      "time_s": 2.16,
+      "virtual_frame": 51.88235294117647,
+      "source_frame": 46.11764705882353,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010720479302108288,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012326382100582123,
+      "right_foot_min_z": 0.010720479302108288
+    },
+    {
+      "sample": 109,
+      "time_s": 2.18,
+      "virtual_frame": 52.36274509803922,
+      "source_frame": 45.63725490196078,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010702766478061676,
+      "all_mesh_max_z": 0.8461031913757324,
+      "left_foot_min_z": 0.012320618145167828,
+      "right_foot_min_z": 0.010702766478061676
+    },
+    {
+      "sample": 110,
+      "time_s": 2.2,
+      "virtual_frame": 52.84313725490196,
+      "source_frame": 45.15686274509804,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010702766478061676,
+      "all_mesh_max_z": 0.8461031317710876,
+      "left_foot_min_z": 0.012320618145167828,
+      "right_foot_min_z": 0.010702766478061676
+    },
+    {
+      "sample": 111,
+      "time_s": 2.22,
+      "virtual_frame": 53.32352941176471,
+      "source_frame": 44.67647058823529,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.01065172627568245,
+      "all_mesh_max_z": 0.8461025953292847,
+      "left_foot_min_z": 0.012090321630239487,
+      "right_foot_min_z": 0.01065172627568245
+    },
+    {
+      "sample": 112,
+      "time_s": 2.24,
+      "virtual_frame": 53.80392156862745,
+      "source_frame": 44.19607843137255,
+      "root_z": 0.44449999928474426,
+      "all_mesh_min_z": 0.010471023619174957,
+      "all_mesh_max_z": 0.8461005687713623,
+      "left_foot_min_z": 0.01128536369651556,
+      "right_foot_min_z": 0.010471023619174957
+    },
+    {
+      "sample": 113,
+      "time_s": 2.26,
+      "virtual_frame": 54.2843137254902,
+      "source_frame": 43.7156862745098,
+      "root_z": 0.44489309191703796,
+      "all_mesh_min_z": 0.01079819817095995,
+      "all_mesh_max_z": 0.8464910387992859,
+      "left_foot_min_z": 0.011166074313223362,
+      "right_foot_min_z": 0.01079819817095995
+    },
+    {
+      "sample": 114,
+      "time_s": 2.28,
+      "virtual_frame": 54.76470588235294,
+      "source_frame": 43.23529411764706,
+      "root_z": 0.44621992111206055,
+      "all_mesh_min_z": 0.012299965135753155,
+      "all_mesh_max_z": 0.8478156328201294,
+      "left_foot_min_z": 0.012514058500528336,
+      "right_foot_min_z": 0.012299965135753155
+    },
+    {
+      "sample": 115,
+      "time_s": 2.3,
+      "virtual_frame": 55.24509803921569,
+      "source_frame": 42.75490196078431,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01236905250698328,
+      "all_mesh_max_z": 0.8480939269065857,
+      "left_foot_min_z": 0.012487529776990414,
+      "right_foot_min_z": 0.01236905250698328
+    },
+    {
+      "sample": 116,
+      "time_s": 2.32,
+      "virtual_frame": 55.72549019607843,
+      "source_frame": 42.27450980392157,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01195888128131628,
+      "all_mesh_max_z": 0.8480916619300842,
+      "left_foot_min_z": 0.01195888128131628,
+      "right_foot_min_z": 0.012392032891511917
+    },
+    {
+      "sample": 117,
+      "time_s": 2.34,
+      "virtual_frame": 56.20588235294118,
+      "source_frame": 41.79411764705882,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011794976890087128,
+      "all_mesh_max_z": 0.8480867147445679,
+      "left_foot_min_z": 0.011794976890087128,
+      "right_foot_min_z": 0.012368278577923775
+    },
+    {
+      "sample": 118,
+      "time_s": 2.36,
+      "virtual_frame": 56.68627450980392,
+      "source_frame": 41.31372549019608,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012074710801243782,
+      "all_mesh_max_z": 0.8480785489082336,
+      "left_foot_min_z": 0.012074710801243782,
+      "right_foot_min_z": 0.012679164297878742
+    },
+    {
+      "sample": 119,
+      "time_s": 2.38,
+      "virtual_frame": 57.16666666666667,
+      "source_frame": 40.83333333333333,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012239974923431873,
+      "all_mesh_max_z": 0.8480704426765442,
+      "left_foot_min_z": 0.012239974923431873,
+      "right_foot_min_z": 0.012940516695380211
+    },
+    {
+      "sample": 120,
+      "time_s": 2.4,
+      "virtual_frame": 57.64705882352941,
+      "source_frame": 40.35294117647059,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012074909172952175,
+      "all_mesh_max_z": 0.8480658531188965,
+      "left_foot_min_z": 0.012074909172952175,
+      "right_foot_min_z": 0.013142929412424564
+    },
+    {
+      "sample": 121,
+      "time_s": 2.42,
+      "virtual_frame": 58.12745098039216,
+      "source_frame": 39.87254901960784,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011900864541530609,
+      "all_mesh_max_z": 0.8480626344680786,
+      "left_foot_min_z": 0.011900864541530609,
+      "right_foot_min_z": 0.013270384632050991
+    },
+    {
+      "sample": 122,
+      "time_s": 2.44,
+      "virtual_frame": 58.6078431372549,
+      "source_frame": 39.3921568627451,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011953859589993954,
+      "all_mesh_max_z": 0.84805828332901,
+      "left_foot_min_z": 0.011953859589993954,
+      "right_foot_min_z": 0.01322355680167675
+    },
+    {
+      "sample": 123,
+      "time_s": 2.46,
+      "virtual_frame": 59.08823529411765,
+      "source_frame": 38.91176470588235,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011963389813899994,
+      "all_mesh_max_z": 0.8480520248413086,
+      "left_foot_min_z": 0.011963389813899994,
+      "right_foot_min_z": 0.013086703605949879
+    },
+    {
+      "sample": 124,
+      "time_s": 2.48,
+      "virtual_frame": 59.568627450980394,
+      "source_frame": 38.431372549019606,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012028798460960388,
+      "all_mesh_max_z": 0.8480421900749207,
+      "left_foot_min_z": 0.012028798460960388,
+      "right_foot_min_z": 0.012969586998224258
+    },
+    {
+      "sample": 125,
+      "time_s": 2.5,
+      "virtual_frame": 60.04901960784314,
+      "source_frame": 37.95098039215686,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012157462537288666,
+      "all_mesh_max_z": 0.8480261564254761,
+      "left_foot_min_z": 0.012157462537288666,
+      "right_foot_min_z": 0.013019012287259102
+    },
+    {
+      "sample": 126,
+      "time_s": 2.52,
+      "virtual_frame": 60.529411764705884,
+      "source_frame": 37.470588235294116,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01225043460726738,
+      "all_mesh_max_z": 0.8480027914047241,
+      "left_foot_min_z": 0.01225043460726738,
+      "right_foot_min_z": 0.013243039138615131
+    },
+    {
+      "sample": 127,
+      "time_s": 2.54,
+      "virtual_frame": 61.00980392156863,
+      "source_frame": 36.99019607843137,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012293295934796333,
+      "all_mesh_max_z": 0.8479776382446289,
+      "left_foot_min_z": 0.012293295934796333,
+      "right_foot_min_z": 0.013268661685287952
+    },
+    {
+      "sample": 128,
+      "time_s": 2.56,
+      "virtual_frame": 61.490196078431374,
+      "source_frame": 36.509803921568626,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012223340570926666,
+      "all_mesh_max_z": 0.8479576706886292,
+      "left_foot_min_z": 0.012223340570926666,
+      "right_foot_min_z": 0.013013492338359356
+    },
+    {
+      "sample": 129,
+      "time_s": 2.58,
+      "virtual_frame": 61.970588235294116,
+      "source_frame": 36.029411764705884,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01211380772292614,
+      "all_mesh_max_z": 0.8479394316673279,
+      "left_foot_min_z": 0.01211380772292614,
+      "right_foot_min_z": 0.012730678543448448
+    },
+    {
+      "sample": 130,
+      "time_s": 2.6,
+      "virtual_frame": 62.450980392156865,
+      "source_frame": 35.549019607843135,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.012191199697554111,
+      "all_mesh_max_z": 0.8479164838790894,
+      "left_foot_min_z": 0.012266597710549831,
+      "right_foot_min_z": 0.012191199697554111
+    },
+    {
+      "sample": 131,
+      "time_s": 2.62,
+      "virtual_frame": 62.931372549019606,
+      "source_frame": 35.068627450980394,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011700288392603397,
+      "all_mesh_max_z": 0.8478935360908508,
+      "left_foot_min_z": 0.012441093102097511,
+      "right_foot_min_z": 0.011700288392603397
+    },
+    {
+      "sample": 132,
+      "time_s": 2.64,
+      "virtual_frame": 63.411764705882355,
+      "source_frame": 34.588235294117645,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011519838124513626,
+      "all_mesh_max_z": 0.847878634929657,
+      "left_foot_min_z": 0.012578131631016731,
+      "right_foot_min_z": 0.011519838124513626
+    },
+    {
+      "sample": 133,
+      "time_s": 2.66,
+      "virtual_frame": 63.8921568627451,
+      "source_frame": 34.1078431372549,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011452488601207733,
+      "all_mesh_max_z": 0.8478698134422302,
+      "left_foot_min_z": 0.012737015262246132,
+      "right_foot_min_z": 0.011452488601207733
+    },
+    {
+      "sample": 134,
+      "time_s": 2.68,
+      "virtual_frame": 64.37254901960785,
+      "source_frame": 33.627450980392155,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011271226219832897,
+      "all_mesh_max_z": 0.8478600978851318,
+      "left_foot_min_z": 0.012796632014214993,
+      "right_foot_min_z": 0.011271226219832897
+    },
+    {
+      "sample": 135,
+      "time_s": 2.7,
+      "virtual_frame": 64.8529411764706,
+      "source_frame": 33.147058823529406,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011060811579227448,
+      "all_mesh_max_z": 0.847846508026123,
+      "left_foot_min_z": 0.012940581887960434,
+      "right_foot_min_z": 0.011060811579227448
+    },
+    {
+      "sample": 136,
+      "time_s": 2.72,
+      "virtual_frame": 65.33333333333333,
+      "source_frame": 32.66666666666667,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01100502721965313,
+      "all_mesh_max_z": 0.8478280901908875,
+      "left_foot_min_z": 0.012983899563550949,
+      "right_foot_min_z": 0.01100502721965313
+    },
+    {
+      "sample": 137,
+      "time_s": 2.74,
+      "virtual_frame": 65.81372549019608,
+      "source_frame": 32.18627450980392,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.011024936102330685,
+      "all_mesh_max_z": 0.8478134274482727,
+      "left_foot_min_z": 0.013050385750830173,
+      "right_foot_min_z": 0.011024936102330685
+    },
+    {
+      "sample": 138,
+      "time_s": 2.76,
+      "virtual_frame": 66.29411764705883,
+      "source_frame": 31.705882352941174,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01093608420342207,
+      "all_mesh_max_z": 0.8478219509124756,
+      "left_foot_min_z": 0.01287446916103363,
+      "right_foot_min_z": 0.01093608420342207
+    },
+    {
+      "sample": 139,
+      "time_s": 2.78,
+      "virtual_frame": 66.77450980392157,
+      "source_frame": 31.225490196078425,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010622454807162285,
+      "all_mesh_max_z": 0.8478531241416931,
+      "left_foot_min_z": 0.012848230078816414,
+      "right_foot_min_z": 0.010622454807162285
+    },
+    {
+      "sample": 140,
+      "time_s": 2.8,
+      "virtual_frame": 67.25490196078431,
+      "source_frame": 30.74509803921569,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010509762912988663,
+      "all_mesh_max_z": 0.8478608131408691,
+      "left_foot_min_z": 0.012731312774121761,
+      "right_foot_min_z": 0.010509762912988663
+    },
+    {
+      "sample": 141,
+      "time_s": 2.82,
+      "virtual_frame": 67.73529411764706,
+      "source_frame": 30.264705882352942,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010492555797100067,
+      "all_mesh_max_z": 0.8478620648384094,
+      "left_foot_min_z": 0.012632796540856361,
+      "right_foot_min_z": 0.010492555797100067
+    },
+    {
+      "sample": 142,
+      "time_s": 2.84,
+      "virtual_frame": 68.2156862745098,
+      "source_frame": 29.784313725490193,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010594798251986504,
+      "all_mesh_max_z": 0.8478651642799377,
+      "left_foot_min_z": 0.012598126195371151,
+      "right_foot_min_z": 0.010594798251986504
+    },
+    {
+      "sample": 143,
+      "time_s": 2.86,
+      "virtual_frame": 68.69607843137256,
+      "source_frame": 29.303921568627445,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010713299736380577,
+      "all_mesh_max_z": 0.8478788733482361,
+      "left_foot_min_z": 0.012563234195113182,
+      "right_foot_min_z": 0.010713299736380577
+    },
+    {
+      "sample": 144,
+      "time_s": 2.88,
+      "virtual_frame": 69.17647058823529,
+      "source_frame": 28.82352941176471,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01074187271296978,
+      "all_mesh_max_z": 0.8478838205337524,
+      "left_foot_min_z": 0.012522218748927116,
+      "right_foot_min_z": 0.01074187271296978
+    },
+    {
+      "sample": 145,
+      "time_s": 2.9,
+      "virtual_frame": 69.65686274509804,
+      "source_frame": 28.34313725490196,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.01073428150266409,
+      "all_mesh_max_z": 0.8478847146034241,
+      "left_foot_min_z": 0.012505645863711834,
+      "right_foot_min_z": 0.01073428150266409
+    },
+    {
+      "sample": 146,
+      "time_s": 2.92,
+      "virtual_frame": 70.13725490196079,
+      "source_frame": 27.862745098039213,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010654402896761894,
+      "all_mesh_max_z": 0.8478862047195435,
+      "left_foot_min_z": 0.012313047423958778,
+      "right_foot_min_z": 0.010654402896761894
+    },
+    {
+      "sample": 147,
+      "time_s": 2.94,
+      "virtual_frame": 70.61764705882354,
+      "source_frame": 27.382352941176464,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.010012499056756496,
+      "all_mesh_max_z": 0.8479035496711731,
+      "left_foot_min_z": 0.012187215499579906,
+      "right_foot_min_z": 0.010012499056756496
+    },
+    {
+      "sample": 148,
+      "time_s": 2.96,
+      "virtual_frame": 71.09803921568627,
+      "source_frame": 26.90196078431373,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009623934514820576,
+      "all_mesh_max_z": 0.8479228615760803,
+      "left_foot_min_z": 0.012344582937657833,
+      "right_foot_min_z": 0.009623934514820576
+    },
+    {
+      "sample": 149,
+      "time_s": 2.98,
+      "virtual_frame": 71.57843137254902,
+      "source_frame": 26.42156862745098,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009814975783228874,
+      "all_mesh_max_z": 0.8479318022727966,
+      "left_foot_min_z": 0.012704886496067047,
+      "right_foot_min_z": 0.009814975783228874
+    },
+    {
+      "sample": 150,
+      "time_s": 3.0,
+      "virtual_frame": 72.05882352941177,
+      "source_frame": 25.941176470588232,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00994373019784689,
+      "all_mesh_max_z": 0.8479328155517578,
+      "left_foot_min_z": 0.013011296279728413,
+      "right_foot_min_z": 0.00994373019784689
+    },
+    {
+      "sample": 151,
+      "time_s": 3.02,
+      "virtual_frame": 72.53921568627452,
+      "source_frame": 25.460784313725483,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00952626671642065,
+      "all_mesh_max_z": 0.8479307293891907,
+      "left_foot_min_z": 0.013172509148716927,
+      "right_foot_min_z": 0.00952626671642065
+    },
+    {
+      "sample": 152,
+      "time_s": 3.04,
+      "virtual_frame": 73.01960784313725,
+      "source_frame": 24.98039215686275,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009156817570328712,
+      "all_mesh_max_z": 0.8479281663894653,
+      "left_foot_min_z": 0.013329466804862022,
+      "right_foot_min_z": 0.009156817570328712
+    },
+    {
+      "sample": 153,
+      "time_s": 3.06,
+      "virtual_frame": 73.5,
+      "source_frame": 24.5,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009067162871360779,
+      "all_mesh_max_z": 0.8479248881340027,
+      "left_foot_min_z": 0.013518426567316055,
+      "right_foot_min_z": 0.009067162871360779
+    },
+    {
+      "sample": 154,
+      "time_s": 3.08,
+      "virtual_frame": 73.98039215686275,
+      "source_frame": 24.01960784313725,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009015295654535294,
+      "all_mesh_max_z": 0.8479220271110535,
+      "left_foot_min_z": 0.013798529282212257,
+      "right_foot_min_z": 0.009015295654535294
+    },
+    {
+      "sample": 155,
+      "time_s": 3.1,
+      "virtual_frame": 74.4607843137255,
+      "source_frame": 23.539215686274503,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.00907914899289608,
+      "all_mesh_max_z": 0.8479199409484863,
+      "left_foot_min_z": 0.013682994991540909,
+      "right_foot_min_z": 0.00907914899289608
+    },
+    {
+      "sample": 156,
+      "time_s": 3.12,
+      "virtual_frame": 74.94117647058823,
+      "source_frame": 23.058823529411768,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.009158832021057606,
+      "all_mesh_max_z": 0.8479174971580505,
+      "left_foot_min_z": 0.013531384989619255,
+      "right_foot_min_z": 0.009158832021057606
+    },
+    {
+      "sample": 157,
+      "time_s": 3.14,
+      "virtual_frame": 75.42156862745098,
+      "source_frame": 22.57843137254902,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.008804029785096645,
+      "all_mesh_max_z": 0.8479135632514954,
+      "left_foot_min_z": 0.013449595309793949,
+      "right_foot_min_z": 0.008804029785096645
+    },
+    {
+      "sample": 158,
+      "time_s": 3.16,
+      "virtual_frame": 75.90196078431373,
+      "source_frame": 22.09803921568627,
+      "root_z": 0.4465000033378601,
+      "all_mesh_min_z": 0.0077631487511098385,
+      "all_mesh_max_z": 0.8479106426239014,
+      "left_foot_min_z": 0.01331237144768238,
+      "right_foot_min_z": 0.0077631487511098385
+    },
+    {
+      "sample": 159,
+      "time_s": 3.18,
+      "virtual_frame": 76.38235294117648,
+      "source_frame": 21.617647058823522,
+      "root_z": 0.44715356826782227,
+      "all_mesh_min_z": 0.00723825441673398,
+      "all_mesh_max_z": 0.8485848903656006,
+      "left_foot_min_z": 0.01377376914024353,
+      "right_foot_min_z": 0.00723825441673398
+    },
+    {
+      "sample": 160,
+      "time_s": 3.2,
+      "virtual_frame": 76.86274509803921,
+      "source_frame": 21.137254901960787,
+      "root_z": 0.44839730858802795,
+      "all_mesh_min_z": 0.007796076592057943,
+      "all_mesh_max_z": 0.849880576133728,
+      "left_foot_min_z": 0.01368627231568098,
+      "right_foot_min_z": 0.007796076592057943
+    },
+    {
+      "sample": 161,
+      "time_s": 3.22,
+      "virtual_frame": 77.34313725490196,
+      "source_frame": 20.65686274509804,
+      "root_z": 0.44850000739097595,
+      "all_mesh_min_z": 0.007858406752347946,
+      "all_mesh_max_z": 0.8500186800956726,
+      "left_foot_min_z": 0.012721681036055088,
+      "right_foot_min_z": 0.007858406752347946
+    },
+    {
+      "sample": 162,
+      "time_s": 3.24,
+      "virtual_frame": 77.82352941176471,
+      "source_frame": 20.17647058823529,
+      "root_z": 0.44850000739097595,
+      "all_mesh_min_z": 0.007953193970024586,
+      "all_mesh_max_z": 0.8500367403030396,
+      "left_foot_min_z": 0.012194200418889523,
+      "right_foot_min_z": 0.007953193970024586
+    },
+    {
+      "sample": 163,
+      "time_s": 3.26,
+      "virtual_frame": 78.30392156862746,
+      "source_frame": 19.69607843137254,
+      "root_z": 0.4489419460296631,
+      "all_mesh_min_z": 0.008080802857875824,
+      "all_mesh_max_z": 0.8504946827888489,
+      "left_foot_min_z": 0.012047181837260723,
+      "right_foot_min_z": 0.008080802857875824
+    },
+    {
+      "sample": 164,
+      "time_s": 3.28,
+      "virtual_frame": 78.7843137254902,
+      "source_frame": 19.215686274509807,
+      "root_z": 0.45026102662086487,
+      "all_mesh_min_z": 0.008717394433915615,
+      "all_mesh_max_z": 0.8518251180648804,
+      "left_foot_min_z": 0.012632610276341438,
+      "right_foot_min_z": 0.008717394433915615
+    },
+    {
+      "sample": 165,
+      "time_s": 3.3,
+      "virtual_frame": 79.26470588235294,
+      "source_frame": 18.735294117647058,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008437699638307095,
+      "all_mesh_max_z": 0.8520758152008057,
+      "left_foot_min_z": 0.012545321136713028,
+      "right_foot_min_z": 0.008437699638307095
+    },
+    {
+      "sample": 166,
+      "time_s": 3.32,
+      "virtual_frame": 79.74509803921569,
+      "source_frame": 18.25490196078431,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008427813649177551,
+      "all_mesh_max_z": 0.8520823121070862,
+      "left_foot_min_z": 0.012367143295705318,
+      "right_foot_min_z": 0.008427813649177551
+    },
+    {
+      "sample": 167,
+      "time_s": 3.34,
+      "virtual_frame": 80.22549019607844,
+      "source_frame": 17.77450980392156,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.00876609142869711,
+      "all_mesh_max_z": 0.8520880937576294,
+      "left_foot_min_z": 0.01253995019942522,
+      "right_foot_min_z": 0.00876609142869711
+    },
+    {
+      "sample": 168,
+      "time_s": 3.36,
+      "virtual_frame": 80.70588235294117,
+      "source_frame": 17.294117647058826,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.00908021628856659,
+      "all_mesh_max_z": 0.8520956635475159,
+      "left_foot_min_z": 0.012650707736611366,
+      "right_foot_min_z": 0.00908021628856659
+    },
+    {
+      "sample": 169,
+      "time_s": 3.38,
+      "virtual_frame": 81.18627450980392,
+      "source_frame": 16.813725490196077,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009164121933281422,
+      "all_mesh_max_z": 0.8521036505699158,
+      "left_foot_min_z": 0.012633360922336578,
+      "right_foot_min_z": 0.009164121933281422
+    },
+    {
+      "sample": 170,
+      "time_s": 3.4,
+      "virtual_frame": 81.66666666666667,
+      "source_frame": 16.33333333333333,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009048542939126492,
+      "all_mesh_max_z": 0.8521102666854858,
+      "left_foot_min_z": 0.012612410821020603,
+      "right_foot_min_z": 0.009048542939126492
+    },
+    {
+      "sample": 171,
+      "time_s": 3.42,
+      "virtual_frame": 82.14705882352942,
+      "source_frame": 15.85294117647058,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008993307128548622,
+      "all_mesh_max_z": 0.8521137237548828,
+      "left_foot_min_z": 0.012613218277692795,
+      "right_foot_min_z": 0.008993307128548622
+    },
+    {
+      "sample": 172,
+      "time_s": 3.44,
+      "virtual_frame": 82.62745098039215,
+      "source_frame": 15.372549019607845,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009073097258806229,
+      "all_mesh_max_z": 0.8521168231964111,
+      "left_foot_min_z": 0.012589373625814915,
+      "right_foot_min_z": 0.009073097258806229
+    },
+    {
+      "sample": 173,
+      "time_s": 3.46,
+      "virtual_frame": 83.1078431372549,
+      "source_frame": 14.892156862745097,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009210141375660896,
+      "all_mesh_max_z": 0.8521288633346558,
+      "left_foot_min_z": 0.012365416623651981,
+      "right_foot_min_z": 0.009210141375660896
+    },
+    {
+      "sample": 174,
+      "time_s": 3.48,
+      "virtual_frame": 83.58823529411765,
+      "source_frame": 14.411764705882348,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009235166944563389,
+      "all_mesh_max_z": 0.8521320223808289,
+      "left_foot_min_z": 0.012077580206096172,
+      "right_foot_min_z": 0.009235166944563389
+    },
+    {
+      "sample": 175,
+      "time_s": 3.5,
+      "virtual_frame": 84.0686274509804,
+      "source_frame": 13.9313725490196,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008973604068160057,
+      "all_mesh_max_z": 0.852135181427002,
+      "left_foot_min_z": 0.012010629288852215,
+      "right_foot_min_z": 0.008973604068160057
+    },
+    {
+      "sample": 176,
+      "time_s": 3.52,
+      "virtual_frame": 84.54901960784314,
+      "source_frame": 13.450980392156865,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008656738325953484,
+      "all_mesh_max_z": 0.8521402478218079,
+      "left_foot_min_z": 0.012167262844741344,
+      "right_foot_min_z": 0.008656738325953484
+    },
+    {
+      "sample": 177,
+      "time_s": 3.54,
+      "virtual_frame": 85.02941176470588,
+      "source_frame": 12.970588235294116,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008324184454977512,
+      "all_mesh_max_z": 0.8521413803100586,
+      "left_foot_min_z": 0.01231461577117443,
+      "right_foot_min_z": 0.008324184454977512
+    },
+    {
+      "sample": 178,
+      "time_s": 3.56,
+      "virtual_frame": 85.50980392156863,
+      "source_frame": 12.490196078431367,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008354230783879757,
+      "all_mesh_max_z": 0.8521373271942139,
+      "left_foot_min_z": 0.012268684804439545,
+      "right_foot_min_z": 0.008354230783879757
+    },
+    {
+      "sample": 179,
+      "time_s": 3.58,
+      "virtual_frame": 85.99019607843138,
+      "source_frame": 12.009803921568619,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008619852364063263,
+      "all_mesh_max_z": 0.8521303534507751,
+      "left_foot_min_z": 0.0122026102617383,
+      "right_foot_min_z": 0.008619852364063263
+    },
+    {
+      "sample": 180,
+      "time_s": 3.6,
+      "virtual_frame": 86.47058823529412,
+      "source_frame": 11.529411764705884,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008614263497292995,
+      "all_mesh_max_z": 0.8521275520324707,
+      "left_foot_min_z": 0.012398417107760906,
+      "right_foot_min_z": 0.008614263497292995
+    },
+    {
+      "sample": 181,
+      "time_s": 3.62,
+      "virtual_frame": 86.95098039215686,
+      "source_frame": 11.049019607843135,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008554711937904358,
+      "all_mesh_max_z": 0.8521227836608887,
+      "left_foot_min_z": 0.012671029195189476,
+      "right_foot_min_z": 0.008554711937904358
+    },
+    {
+      "sample": 182,
+      "time_s": 3.64,
+      "virtual_frame": 87.43137254901961,
+      "source_frame": 10.568627450980387,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008660879917442799,
+      "all_mesh_max_z": 0.8521116375923157,
+      "left_foot_min_z": 0.012636198662221432,
+      "right_foot_min_z": 0.008660879917442799
+    },
+    {
+      "sample": 183,
+      "time_s": 3.66,
+      "virtual_frame": 87.91176470588236,
+      "source_frame": 10.088235294117638,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.008897755295038223,
+      "all_mesh_max_z": 0.8521037697792053,
+      "left_foot_min_z": 0.01246781274676323,
+      "right_foot_min_z": 0.008897755295038223
+    },
+    {
+      "sample": 184,
+      "time_s": 3.68,
+      "virtual_frame": 88.3921568627451,
+      "source_frame": 9.607843137254903,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009242644533514977,
+      "all_mesh_max_z": 0.852109432220459,
+      "left_foot_min_z": 0.012489565648138523,
+      "right_foot_min_z": 0.009242644533514977
+    },
+    {
+      "sample": 185,
+      "time_s": 3.7,
+      "virtual_frame": 88.87254901960785,
+      "source_frame": 9.127450980392155,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009672681801021099,
+      "all_mesh_max_z": 0.8521278500556946,
+      "left_foot_min_z": 0.012530497275292873,
+      "right_foot_min_z": 0.009672681801021099
+    },
+    {
+      "sample": 186,
+      "time_s": 3.72,
+      "virtual_frame": 89.3529411764706,
+      "source_frame": 8.647058823529406,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010001708753407001,
+      "all_mesh_max_z": 0.8521381616592407,
+      "left_foot_min_z": 0.012467346154153347,
+      "right_foot_min_z": 0.010001708753407001
+    },
+    {
+      "sample": 187,
+      "time_s": 3.74,
+      "virtual_frame": 89.83333333333334,
+      "source_frame": 8.166666666666657,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010157114826142788,
+      "all_mesh_max_z": 0.8521419167518616,
+      "left_foot_min_z": 0.012394373305141926,
+      "right_foot_min_z": 0.010157114826142788
+    },
+    {
+      "sample": 188,
+      "time_s": 3.76,
+      "virtual_frame": 90.31372549019608,
+      "source_frame": 7.686274509803923,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010216489434242249,
+      "all_mesh_max_z": 0.8521414399147034,
+      "left_foot_min_z": 0.012374336831271648,
+      "right_foot_min_z": 0.010216489434242249
+    },
+    {
+      "sample": 189,
+      "time_s": 3.78,
+      "virtual_frame": 90.79411764705883,
+      "source_frame": 7.205882352941174,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010093473829329014,
+      "all_mesh_max_z": 0.8521323800086975,
+      "left_foot_min_z": 0.012283490970730782,
+      "right_foot_min_z": 0.010093473829329014
+    },
+    {
+      "sample": 190,
+      "time_s": 3.8,
+      "virtual_frame": 91.27450980392157,
+      "source_frame": 6.725490196078425,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010000575333833694,
+      "all_mesh_max_z": 0.8521386384963989,
+      "left_foot_min_z": 0.012174593284726143,
+      "right_foot_min_z": 0.010000575333833694
+    },
+    {
+      "sample": 191,
+      "time_s": 3.82,
+      "virtual_frame": 91.75490196078432,
+      "source_frame": 6.2450980392156765,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010050785727798939,
+      "all_mesh_max_z": 0.8521457314491272,
+      "left_foot_min_z": 0.012117395177483559,
+      "right_foot_min_z": 0.010050785727798939
+    },
+    {
+      "sample": 192,
+      "time_s": 3.84,
+      "virtual_frame": 92.23529411764706,
+      "source_frame": 5.764705882352942,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010067547671496868,
+      "all_mesh_max_z": 0.8521468043327332,
+      "left_foot_min_z": 0.012201388366520405,
+      "right_foot_min_z": 0.010067547671496868
+    },
+    {
+      "sample": 193,
+      "time_s": 3.86,
+      "virtual_frame": 92.7156862745098,
+      "source_frame": 5.284313725490193,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010067547671496868,
+      "all_mesh_max_z": 0.8521468043327332,
+      "left_foot_min_z": 0.012244535610079765,
+      "right_foot_min_z": 0.010067547671496868
+    },
+    {
+      "sample": 194,
+      "time_s": 3.88,
+      "virtual_frame": 93.19607843137256,
+      "source_frame": 4.803921568627445,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010087979957461357,
+      "all_mesh_max_z": 0.8521448969841003,
+      "left_foot_min_z": 0.012334471568465233,
+      "right_foot_min_z": 0.010087979957461357
+    },
+    {
+      "sample": 195,
+      "time_s": 3.9,
+      "virtual_frame": 93.67647058823529,
+      "source_frame": 4.32352941176471,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010214319452643394,
+      "all_mesh_max_z": 0.8521334528923035,
+      "left_foot_min_z": 0.01233789324760437,
+      "right_foot_min_z": 0.010214319452643394
+    },
+    {
+      "sample": 196,
+      "time_s": 3.92,
+      "virtual_frame": 94.15686274509804,
+      "source_frame": 3.8431372549019613,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010235758498311043,
+      "all_mesh_max_z": 0.8521345257759094,
+      "left_foot_min_z": 0.012454438023269176,
+      "right_foot_min_z": 0.010235758498311043
+    },
+    {
+      "sample": 197,
+      "time_s": 3.94,
+      "virtual_frame": 94.63725490196079,
+      "source_frame": 3.3627450980392126,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010143021121621132,
+      "all_mesh_max_z": 0.8521410226821899,
+      "left_foot_min_z": 0.012588134035468102,
+      "right_foot_min_z": 0.010143021121621132
+    },
+    {
+      "sample": 198,
+      "time_s": 3.96,
+      "virtual_frame": 95.11764705882354,
+      "source_frame": 2.882352941176464,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009782599285244942,
+      "all_mesh_max_z": 0.8521445989608765,
+      "left_foot_min_z": 0.01281548012048006,
+      "right_foot_min_z": 0.009782599285244942
+    },
+    {
+      "sample": 199,
+      "time_s": 3.98,
+      "virtual_frame": 95.59803921568627,
+      "source_frame": 2.4019607843137294,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009708307683467865,
+      "all_mesh_max_z": 0.8521308898925781,
+      "left_foot_min_z": 0.012867334298789501,
+      "right_foot_min_z": 0.009708307683467865
+    },
+    {
+      "sample": 200,
+      "time_s": 4.0,
+      "virtual_frame": 96.07843137254902,
+      "source_frame": 1.9215686274509807,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009707415476441383,
+      "all_mesh_max_z": 0.8521239161491394,
+      "left_foot_min_z": 0.012756581418216228,
+      "right_foot_min_z": 0.009707415476441383
+    },
+    {
+      "sample": 201,
+      "time_s": 4.02,
+      "virtual_frame": 96.55882352941177,
+      "source_frame": 1.441176470588232,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009585171937942505,
+      "all_mesh_max_z": 0.8521273136138916,
+      "left_foot_min_z": 0.012677979655563831,
+      "right_foot_min_z": 0.009585171937942505
+    },
+    {
+      "sample": 202,
+      "time_s": 4.04,
+      "virtual_frame": 97.03921568627452,
+      "source_frame": 0.9607843137254832,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009533446282148361,
+      "all_mesh_max_z": 0.8521287441253662,
+      "left_foot_min_z": 0.012435564771294594,
+      "right_foot_min_z": 0.009533446282148361
+    },
+    {
+      "sample": 203,
+      "time_s": 4.06,
+      "virtual_frame": 97.51960784313725,
+      "source_frame": 0.4803921568627487,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.010361653752624989,
+      "all_mesh_max_z": 0.8521289229393005,
+      "left_foot_min_z": 0.012358929961919785,
+      "right_foot_min_z": 0.010361653752624989
+    },
+    {
+      "sample": 204,
+      "time_s": 4.08,
+      "virtual_frame": 98.0,
+      "source_frame": 0.0,
+      "root_z": 0.4505000114440918,
+      "all_mesh_min_z": 0.009324938990175724,
+      "all_mesh_max_z": 0.8521289825439453,
+      "left_foot_min_z": 0.012132901698350906,
+      "right_foot_min_z": 0.009324938990175724
+    }
+  ]
+}
