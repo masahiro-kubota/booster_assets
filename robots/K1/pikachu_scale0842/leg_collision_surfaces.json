@@ -1,0 +1,1548 @@
+{
+  "representation": "union of <=32-vertex GPU-compatible circumscribed spatial hulls covering each K1 link",
+  "body_names": [
+    "Left_Hip_Pitch",
+    "Left_Hip_Roll",
+    "Left_Hip_Yaw",
+    "Left_Shank",
+    "Left_Ankle_Cross",
+    "left_foot_link",
+    "Right_Hip_Pitch",
+    "Right_Hip_Roll",
+    "Right_Hip_Yaw",
+    "Right_Shank",
+    "Right_Ankle_Cross",
+    "right_foot_link"
+  ],
+  "triangles": 10200,
+  "convex_parts": 192,
+  "urdf_sha256": "9312ecc9dbd2424247d9d74c86eeb478e738dd994c787fd42116f4a4615e0a01",
+  "parts": [
+    {
+      "body": "Left_Hip_Pitch",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Hip_Pitch.STL",
+          "sha256": "ca604e643aaf41ec4d05c8a13ff66ce39587f9d80be7268376c2a6368decd55f",
+          "triangles": 2654
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 0,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007186496510312845,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 1,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007798347270459125,
+          "physical_proxy_padding_max_m": 0.0013856406460551196
+        },
+        {
+          "part_index": 2,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.0003813235474899289,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 3,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005873491542195987,
+          "physical_proxy_padding_max_m": 0.0015189421124452403
+        },
+        {
+          "part_index": 4,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00048427308744789584,
+          "physical_proxy_padding_max_m": 0.0013856406460551083
+        },
+        {
+          "part_index": 5,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0003985062127382957,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 6,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.00048283902687347934,
+          "physical_proxy_padding_max_m": 0.0013856406460551083
+        },
+        {
+          "part_index": 7,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0004677359948997304,
+          "physical_proxy_padding_max_m": 0.0013856406460551144
+        },
+        {
+          "part_index": 8,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005240112128065295,
+          "physical_proxy_padding_max_m": 0.0015189421664257982
+        },
+        {
+          "part_index": 9,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004562750082332871,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 10,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007666311489399548,
+          "physical_proxy_padding_max_m": 0.0015654457784844474
+        },
+        {
+          "part_index": 11,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006671015769452262,
+          "physical_proxy_padding_max_m": 0.0013856406460551066
+        },
+        {
+          "part_index": 12,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00025952287137097314,
+          "physical_proxy_padding_max_m": 0.001388278754183905
+        },
+        {
+          "part_index": 13,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006712792728254646,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 14,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.0002361707798748127,
+          "physical_proxy_padding_max_m": 0.0013882786516561415
+        },
+        {
+          "part_index": 15,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00044442665524233174,
+          "physical_proxy_padding_max_m": 0.0013862280704722131
+        },
+        {
+          "part_index": 16,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007582695095066055,
+          "physical_proxy_padding_max_m": 0.0015793451275016542
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999993906182e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007798347270459125,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Left_Hip_Roll",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Hip_Roll.STL",
+          "sha256": "aa278205ca751295c3d073ca3ddf682762a66218e6e5f239a22109b1d8f5ecf9",
+          "triangles": 750
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 17,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00048079695886850843,
+          "physical_proxy_padding_max_m": 0.0014240473729918478
+        },
+        {
+          "part_index": 18,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0004807969588685788,
+          "physical_proxy_padding_max_m": 0.0014240473729918437
+        },
+        {
+          "part_index": 19,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.000431079648851207,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 20,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00043107964885114464,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 21,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00046871552195002126,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 22,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00046871552195002885,
+          "physical_proxy_padding_max_m": 0.0013856406460551135
+        },
+        {
+          "part_index": 23,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000613307385741842,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 24,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00061330738574187,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999998301971e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.00061330738574187,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Left_Hip_Yaw",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Hip_Yaw.STL",
+          "sha256": "2d8ed37c3a7c954937d5e3b462869f93292e4c4b76047fd4667380fedd3d66d2",
+          "triangles": 4226
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 25,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005065846839576422,
+          "physical_proxy_padding_max_m": 0.0016364871064640824
+        },
+        {
+          "part_index": 26,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00045457993098897866,
+          "physical_proxy_padding_max_m": 0.001388172847176934
+        },
+        {
+          "part_index": 27,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004964655500902319,
+          "physical_proxy_padding_max_m": 0.0013881721388084498
+        },
+        {
+          "part_index": 28,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00044931244094186825,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 29,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0003965196157979044,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 30,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00048341386418464,
+          "physical_proxy_padding_max_m": 0.0014225904514793095
+        },
+        {
+          "part_index": 31,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00046434845959059963,
+          "physical_proxy_padding_max_m": 0.0013875504882110204
+        },
+        {
+          "part_index": 32,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007905421787336203,
+          "physical_proxy_padding_max_m": 0.0014969041834454904
+        },
+        {
+          "part_index": 33,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00048691428951556947,
+          "physical_proxy_padding_max_m": 0.0013856406460551016
+        },
+        {
+          "part_index": 34,
+          "vertices": 16,
+          "triangles": 28,
+          "max_outer_expansion_m": 0.00039398479623829915,
+          "physical_proxy_padding_max_m": 0.0013856406460551044
+        },
+        {
+          "part_index": 35,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004991866975875254,
+          "physical_proxy_padding_max_m": 0.001647723062421522
+        },
+        {
+          "part_index": 36,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00039049917652905693,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 37,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005005724574596466,
+          "physical_proxy_padding_max_m": 0.001390845810806337
+        },
+        {
+          "part_index": 38,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005628235263825241,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 39,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0003768905958333803,
+          "physical_proxy_padding_max_m": 0.0014039943833866855
+        },
+        {
+          "part_index": 40,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004617719906826081,
+          "physical_proxy_padding_max_m": 0.0014046047282030149
+        },
+        {
+          "part_index": 41,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00038094327895451846,
+          "physical_proxy_padding_max_m": 0.001481828321357003
+        },
+        {
+          "part_index": 42,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00038331054145553345,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 43,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0003385192206395956,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 44,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00031504227449840477,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 45,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007810527611052339,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        }
+      ],
+      "source_vertex_max_outside_m": -1.9999999727737805e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007905421787336203,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Left_Shank",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Shank.STL",
+          "sha256": "0e99f5850ba752492a7d5fa0fb066efae03823cb4020e7e57a38e652a34be85c",
+          "triangles": 6282
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 46,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0004844496004296694,
+          "physical_proxy_padding_max_m": 0.0014591249852470357
+        },
+        {
+          "part_index": 47,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004883974818194042,
+          "physical_proxy_padding_max_m": 0.0013856406460551357
+        },
+        {
+          "part_index": 48,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.000478711358435527,
+          "physical_proxy_padding_max_m": 0.0014589500508842951
+        },
+        {
+          "part_index": 49,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005048393066641822,
+          "physical_proxy_padding_max_m": 0.0013856406460551315
+        },
+        {
+          "part_index": 50,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005768121304956058,
+          "physical_proxy_padding_max_m": 0.0014312266976862205
+        },
+        {
+          "part_index": 51,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005165323586321159,
+          "physical_proxy_padding_max_m": 0.0013954985745348997
+        },
+        {
+          "part_index": 52,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00040804357422426636,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 53,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004091254425548849,
+          "physical_proxy_padding_max_m": 0.0013856406460551016
+        },
+        {
+          "part_index": 54,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0003051968891862509,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 55,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004534487224784752,
+          "physical_proxy_padding_max_m": 0.0013856406460550994
+        },
+        {
+          "part_index": 56,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00048476811364287615,
+          "physical_proxy_padding_max_m": 0.0013874968724030196
+        },
+        {
+          "part_index": 57,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.000482996882861366,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 58,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00041886730485523634,
+          "physical_proxy_padding_max_m": 0.0013912535558411971
+        },
+        {
+          "part_index": 59,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006353654867436566,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 60,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005356040569303881,
+          "physical_proxy_padding_max_m": 0.0013926582605106202
+        },
+        {
+          "part_index": 61,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.00015559846245226185,
+          "physical_proxy_padding_max_m": 0.0013856406460551114
+        },
+        {
+          "part_index": 62,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00047685542975640016,
+          "physical_proxy_padding_max_m": 0.0013867830004442893
+        },
+        {
+          "part_index": 63,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.0003508712506043611,
+          "physical_proxy_padding_max_m": 0.001395056997689214
+        },
+        {
+          "part_index": 64,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0003126800003474416,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 65,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00044410020228575093,
+          "physical_proxy_padding_max_m": 0.0013856406460551174
+        },
+        {
+          "part_index": 66,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00036623787880379346,
+          "physical_proxy_padding_max_m": 0.0013887145037666283
+        },
+        {
+          "part_index": 67,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.00043961659004303596,
+          "physical_proxy_padding_max_m": 0.0013964228501521425
+        },
+        {
+          "part_index": 68,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0003709982742740603,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 69,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007698901793405333,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999986485035e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007698901793405333,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Left_Ankle_Cross",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Ankle_Cross.STL",
+          "sha256": "1798cb3b9721d82c913ce4b0080da9c0eaa69749445bc4a8d6f13dc6a69da232",
+          "triangles": 2118
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 70,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00043672918422043807,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 71,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000441217801605215,
+          "physical_proxy_padding_max_m": 0.001385640646055106
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999999858018e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.000441217801605215,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "left_foot_link",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Left_Foot.STL",
+          "sha256": "1a391f4b3b87a27726e09f15f6d2ce7795c702c13c0d76307d4756d8aeaadde3",
+          "triangles": 44895
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 72,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007028390825339382,
+          "physical_proxy_padding_max_m": 0.0014802365166665446
+        },
+        {
+          "part_index": 73,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00043377011890311705,
+          "physical_proxy_padding_max_m": 0.0013856406460551085
+        },
+        {
+          "part_index": 74,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00042344891330550445,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 75,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006412923581870267,
+          "physical_proxy_padding_max_m": 0.0015032528452161536
+        },
+        {
+          "part_index": 76,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0002930102351343277,
+          "physical_proxy_padding_max_m": 0.0014962313712094796
+        },
+        {
+          "part_index": 77,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005019383859956349,
+          "physical_proxy_padding_max_m": 0.0013856406460551127
+        },
+        {
+          "part_index": 78,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004507304581294121,
+          "physical_proxy_padding_max_m": 0.0013856406460551085
+        },
+        {
+          "part_index": 79,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006173077050361392,
+          "physical_proxy_padding_max_m": 0.0015280238375099473
+        },
+        {
+          "part_index": 80,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.00043265531919392145,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 81,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000767527015353147,
+          "physical_proxy_padding_max_m": 0.0014843914541838338
+        },
+        {
+          "part_index": 82,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006488069938042945,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 83,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000705786469525618,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 84,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005753388260054089,
+          "physical_proxy_padding_max_m": 0.0013856406460551116
+        },
+        {
+          "part_index": 85,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005067082708519818,
+          "physical_proxy_padding_max_m": 0.0013856406460551114
+        },
+        {
+          "part_index": 86,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00047759462479004936,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 87,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0004557393749359469,
+          "physical_proxy_padding_max_m": 0.001557029457984587
+        },
+        {
+          "part_index": 88,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000789749386487727,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 89,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004906692863762612,
+          "physical_proxy_padding_max_m": 0.0014827186797048135
+        },
+        {
+          "part_index": 90,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006242857342363913,
+          "physical_proxy_padding_max_m": 0.001436139689761752
+        },
+        {
+          "part_index": 91,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007051051613514475,
+          "physical_proxy_padding_max_m": 0.0014524473069116026
+        },
+        {
+          "part_index": 92,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007646679581686235,
+          "physical_proxy_padding_max_m": 0.0013856542358945166
+        },
+        {
+          "part_index": 93,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007551475772844563,
+          "physical_proxy_padding_max_m": 0.0013856406460551005
+        },
+        {
+          "part_index": 94,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00041913956530560876,
+          "physical_proxy_padding_max_m": 0.0015559624898481355
+        },
+        {
+          "part_index": 95,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006593884231000952,
+          "physical_proxy_padding_max_m": 0.0013856406460550994
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999974168498e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.000789749386487727,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Right_Hip_Pitch",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Hip_Pitch.STL",
+          "sha256": "ab6052ca8f6a2ddf75ad536e3daf51024cbd8f6b9fa5ca36a8ac966347d850ac",
+          "triangles": 2654
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 96,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007798347270459151,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 97,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007186496510312725,
+          "physical_proxy_padding_max_m": 0.0013856406460550994
+        },
+        {
+          "part_index": 98,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.00048283902687348205,
+          "physical_proxy_padding_max_m": 0.0013856406460551044
+        },
+        {
+          "part_index": 99,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005240112128065295,
+          "physical_proxy_padding_max_m": 0.0015189421664257915
+        },
+        {
+          "part_index": 100,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00046773599489973057,
+          "physical_proxy_padding_max_m": 0.0013856406460551125
+        },
+        {
+          "part_index": 101,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00045627500823329205,
+          "physical_proxy_padding_max_m": 0.0013856406460551135
+        },
+        {
+          "part_index": 102,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.0003813235474899262,
+          "physical_proxy_padding_max_m": 0.0013856406460551044
+        },
+        {
+          "part_index": 103,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0004842730874478861,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 104,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005873491542195534,
+          "physical_proxy_padding_max_m": 0.0015189421124452325
+        },
+        {
+          "part_index": 105,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00039850621273828144,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 106,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006651244835487053,
+          "physical_proxy_padding_max_m": 0.0013856406460551114
+        },
+        {
+          "part_index": 107,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00025952287137085545,
+          "physical_proxy_padding_max_m": 0.001388278754183889
+        },
+        {
+          "part_index": 108,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007666259810728607,
+          "physical_proxy_padding_max_m": 0.0015654457756275263
+        },
+        {
+          "part_index": 109,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00023617077987481266,
+          "physical_proxy_padding_max_m": 0.0013882786516561396
+        },
+        {
+          "part_index": 110,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007582695095066117,
+          "physical_proxy_padding_max_m": 0.001579345127501656
+        },
+        {
+          "part_index": 111,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.000444426655242331,
+          "physical_proxy_padding_max_m": 0.00138622807047221
+        },
+        {
+          "part_index": 112,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006712792728254611,
+          "physical_proxy_padding_max_m": 0.0013856406460551085
+        }
+      ],
+      "source_vertex_max_outside_m": -1.9999999960988724e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007798347270459151,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Right_Hip_Roll",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Hip_Roll.STL",
+          "sha256": "9655e49b0ae12366eb8dba28dcc9593d63d6ec7a8431d90dc692041c8bb74765",
+          "triangles": 750
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 113,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00048079695886850843,
+          "physical_proxy_padding_max_m": 0.0014240473729918753
+        },
+        {
+          "part_index": 114,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00048079695886856096,
+          "physical_proxy_padding_max_m": 0.00142404737299184
+        },
+        {
+          "part_index": 115,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00043107964885106815,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 116,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00043107964885114464,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 117,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00046871552195002126,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 118,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004687155219500006,
+          "physical_proxy_padding_max_m": 0.0013856406460551174
+        },
+        {
+          "part_index": 119,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006133073857418592,
+          "physical_proxy_padding_max_m": 0.0013856406460551144
+        },
+        {
+          "part_index": 120,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00061330738574187,
+          "physical_proxy_padding_max_m": 0.0013856406460551105
+        }
+      ],
+      "source_vertex_max_outside_m": -1.9999999978231875e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.00061330738574187,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Right_Hip_Yaw",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Hip_Yaw.STL",
+          "sha256": "dd54f3cd1cdbaead210692a4cd4e131a1b696ceefd9715ab1eb6a8e9f44d88aa",
+          "triangles": 4224
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 121,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00044931244094186825,
+          "physical_proxy_padding_max_m": 0.0013856406460551044
+        },
+        {
+          "part_index": 122,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005065846839576764,
+          "physical_proxy_padding_max_m": 0.0016364871064640338
+        },
+        {
+          "part_index": 123,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00045457993098899736,
+          "physical_proxy_padding_max_m": 0.0013881728471774768
+        },
+        {
+          "part_index": 124,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004964655500902484,
+          "physical_proxy_padding_max_m": 0.0013881721388084376
+        },
+        {
+          "part_index": 125,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00048341386418464,
+          "physical_proxy_padding_max_m": 0.0014225904514793054
+        },
+        {
+          "part_index": 126,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0003965196157979044,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 127,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0004869142895155638,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 128,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.000499186697587532,
+          "physical_proxy_padding_max_m": 0.0016477872386760936
+        },
+        {
+          "part_index": 129,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00039049917652887435,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 130,
+          "vertices": 16,
+          "triangles": 28,
+          "max_outer_expansion_m": 0.0003939800463772578,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 131,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00046434845959059394,
+          "physical_proxy_padding_max_m": 0.0013875504882110072
+        },
+        {
+          "part_index": 132,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007905421787336116,
+          "physical_proxy_padding_max_m": 0.0014969041834455134
+        },
+        {
+          "part_index": 133,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005628235263826164,
+          "physical_proxy_padding_max_m": 0.0013856406460551135
+        },
+        {
+          "part_index": 134,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005005724574596604,
+          "physical_proxy_padding_max_m": 0.0013908458108062803
+        },
+        {
+          "part_index": 135,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004617719906825879,
+          "physical_proxy_padding_max_m": 0.001404604728203009
+        },
+        {
+          "part_index": 136,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.0003768905958334062,
+          "physical_proxy_padding_max_m": 0.0014039943833865029
+        },
+        {
+          "part_index": 137,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00038331054145552943,
+          "physical_proxy_padding_max_m": 0.0013856406460551114
+        },
+        {
+          "part_index": 138,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00038094327895451304,
+          "physical_proxy_padding_max_m": 0.0014818283213569917
+        },
+        {
+          "part_index": 139,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0003150422744984119,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 140,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00033851922063959553,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 141,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00078105276110524,
+          "physical_proxy_padding_max_m": 0.0013856406460551216
+        }
+      ],
+      "source_vertex_max_outside_m": -1.9999999298636606e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007905421787336116,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Right_Shank",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Shank.STL",
+          "sha256": "6a7e831055148894ba623bf8d2eca27f2cef32e324819566c39e33cb12c0b4f9",
+          "triangles": 6284
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 142,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00048401003712878545,
+          "physical_proxy_padding_max_m": 0.0014589493277961305
+        },
+        {
+          "part_index": 143,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004888688122394231,
+          "physical_proxy_padding_max_m": 0.0013856406460551174
+        },
+        {
+          "part_index": 144,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.00047789130467327753,
+          "physical_proxy_padding_max_m": 0.0014591249852470502
+        },
+        {
+          "part_index": 145,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0003123729210836457,
+          "physical_proxy_padding_max_m": 0.001385640646055118
+        },
+        {
+          "part_index": 146,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005163838442716936,
+          "physical_proxy_padding_max_m": 0.0013954985743718541
+        },
+        {
+          "part_index": 147,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005768089335950301,
+          "physical_proxy_padding_max_m": 0.0014312163744794782
+        },
+        {
+          "part_index": 148,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0004075857660871029,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 149,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00040805299505371597,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 150,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004847681158417536,
+          "physical_proxy_padding_max_m": 0.0013874927169214419
+        },
+        {
+          "part_index": 151,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00048299660910756264,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 152,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00030522260527396605,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 153,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004534388947094332,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 154,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00041907579967109685,
+          "physical_proxy_padding_max_m": 0.0013911676729356356
+        },
+        {
+          "part_index": 155,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005356017627017692,
+          "physical_proxy_padding_max_m": 0.0013926582605106083
+        },
+        {
+          "part_index": 156,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006353580040910756,
+          "physical_proxy_padding_max_m": 0.0013856406460550994
+        },
+        {
+          "part_index": 157,
+          "vertices": 24,
+          "triangles": 44,
+          "max_outer_expansion_m": 0.000312678557089596,
+          "physical_proxy_padding_max_m": 0.0013856406460551153
+        },
+        {
+          "part_index": 158,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.00044419942936463585,
+          "physical_proxy_padding_max_m": 0.0013856406460551174
+        },
+        {
+          "part_index": 159,
+          "vertices": 18,
+          "triangles": 32,
+          "max_outer_expansion_m": 0.00018258492053071926,
+          "physical_proxy_padding_max_m": 0.0013856406460551114
+        },
+        {
+          "part_index": 160,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.0004766617320749766,
+          "physical_proxy_padding_max_m": 0.0013867264597389557
+        },
+        {
+          "part_index": 161,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.0003508760303760133,
+          "physical_proxy_padding_max_m": 0.001391228042870719
+        },
+        {
+          "part_index": 162,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007698869600084101,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 163,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00036629813215027166,
+          "physical_proxy_padding_max_m": 0.001388650806675346
+        },
+        {
+          "part_index": 164,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.00044700983523960133,
+          "physical_proxy_padding_max_m": 0.0013963349274406487
+        },
+        {
+          "part_index": 165,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.0003707646675600309,
+          "physical_proxy_padding_max_m": 0.0013856406460551125
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999893739779e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007698869600084101,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "Right_Ankle_Cross",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Ankle_Cross.STL",
+          "sha256": "fd59798e9b4b55661372b601db3dbec9ef5567256b631c3d679a2e3446638256",
+          "triangles": 2118
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 166,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004383106767671128,
+          "physical_proxy_padding_max_m": 0.0013856406460551044
+        },
+        {
+          "part_index": 167,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004412085201277213,
+          "physical_proxy_padding_max_m": 0.001385640646055105
+        }
+      ],
+      "source_vertex_max_outside_m": -1.9999999997695472e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0004412085201277213,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    },
+    {
+      "body": "right_foot_link",
+      "sources": [
+        {
+          "path": "booster_assets/robots/K1/meshes/Right_Foot.STL",
+          "sha256": "059b969922a9a31eb40828206070731d3612453f3aa3c2559702c566abb4b0fd",
+          "triangles": 44918
+        }
+      ],
+      "parts": [
+        {
+          "part_index": 168,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006174375533316047,
+          "physical_proxy_padding_max_m": 0.0015280238581997475
+        },
+        {
+          "part_index": 169,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.0004505987492847014,
+          "physical_proxy_padding_max_m": 0.0013856406460551125
+        },
+        {
+          "part_index": 170,
+          "vertices": 20,
+          "triangles": 36,
+          "max_outer_expansion_m": 0.0004335480187968988,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 171,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007781215949701513,
+          "physical_proxy_padding_max_m": 0.0014843914543089664
+        },
+        {
+          "part_index": 172,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006478975531755003,
+          "physical_proxy_padding_max_m": 0.0013856406460551105
+        },
+        {
+          "part_index": 173,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00043884850685191085,
+          "physical_proxy_padding_max_m": 0.0013856406460551055
+        },
+        {
+          "part_index": 174,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007120476876478342,
+          "physical_proxy_padding_max_m": 0.0014802365166665479
+        },
+        {
+          "part_index": 175,
+          "vertices": 22,
+          "triangles": 40,
+          "max_outer_expansion_m": 0.00042370496173002896,
+          "physical_proxy_padding_max_m": 0.0013856406460551075
+        },
+        {
+          "part_index": 176,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00026581280481897886,
+          "physical_proxy_padding_max_m": 0.0014969462488143661
+        },
+        {
+          "part_index": 177,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006418000827475771,
+          "physical_proxy_padding_max_m": 0.0015073626353852548
+        },
+        {
+          "part_index": 178,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.000503895017838384,
+          "physical_proxy_padding_max_m": 0.0013856406460551014
+        },
+        {
+          "part_index": 179,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005753373092954201,
+          "physical_proxy_padding_max_m": 0.0013856406460551014
+        },
+        {
+          "part_index": 180,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007111958544549416,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 181,
+          "vertices": 28,
+          "triangles": 52,
+          "max_outer_expansion_m": 0.00047759462479002475,
+          "physical_proxy_padding_max_m": 0.0013856406460551036
+        },
+        {
+          "part_index": 182,
+          "vertices": 26,
+          "triangles": 48,
+          "max_outer_expansion_m": 0.00045574063352890425,
+          "physical_proxy_padding_max_m": 0.0015508080339728847
+        },
+        {
+          "part_index": 183,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0005067470670608243,
+          "physical_proxy_padding_max_m": 0.0013856406460551155
+        },
+        {
+          "part_index": 184,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007627960030439527,
+          "physical_proxy_padding_max_m": 0.0013856598730522768
+        },
+        {
+          "part_index": 185,
+          "vertices": 30,
+          "triangles": 56,
+          "max_outer_expansion_m": 0.00041942306063880435,
+          "physical_proxy_padding_max_m": 0.0015558167683275134
+        },
+        {
+          "part_index": 186,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006593581766094486,
+          "physical_proxy_padding_max_m": 0.0013856406460551096
+        },
+        {
+          "part_index": 187,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007551446675902755,
+          "physical_proxy_padding_max_m": 0.0013856406460551016
+        },
+        {
+          "part_index": 188,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007897823333721121,
+          "physical_proxy_padding_max_m": 0.0013856406460550975
+        },
+        {
+          "part_index": 189,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0007051360071457139,
+          "physical_proxy_padding_max_m": 0.0014524473116697678
+        },
+        {
+          "part_index": 190,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0004904793940076726,
+          "physical_proxy_padding_max_m": 0.001482718334913362
+        },
+        {
+          "part_index": 191,
+          "vertices": 32,
+          "triangles": 60,
+          "max_outer_expansion_m": 0.0006242169161485134,
+          "physical_proxy_padding_max_m": 0.001436139689619315
+        }
+      ],
+      "source_vertex_max_outside_m": -1.999999984042544e-06,
+      "max_expansion_beyond_full_convex_hull_m": 0.0007897823333721121,
+      "coverage": "Union of circumscribed spatial partitions of the full source convex hull."
+    }
+  ],
+  "distance_conservatism_m": 0.0001,
+  "limitations": "May conservatively fill recesses within one link. Cables or parts absent from the supplied K1 geometry remain unmodelled."
+}

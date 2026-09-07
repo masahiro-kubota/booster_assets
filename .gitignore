@@ -36,6 +36,9 @@ __pycache__/
 # Motion NPZ assets under motions/ are versioned with Git LFS.
 !motions/**/*.npz
 
+# Collision, reset, and mass inputs for the versioned Scale0842 task.
+!robots/K1/pikachu_scale0842/*.npz
+
 # Local scratch/convenience conversions regenerated from CSV or experiments.
 motions/K1/k1_fight_001.npz
 motions/K1/k1_fight_001_30fps.npz

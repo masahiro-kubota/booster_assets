@@ -1,1 +1,2 @@
 motions/**/*.npz filter=lfs diff=lfs merge=lfs -text
+robots/K1/pikachu_scale0842/*.npz filter=lfs diff=lfs merge=lfs -text

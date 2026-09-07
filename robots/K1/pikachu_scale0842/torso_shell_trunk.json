@@ -1,0 +1,52 @@
+{
+  "source_blend": "/home/masa/booster/blender/k1_character_v1.blend",
+  "source_unsaved": false,
+  "partition_revision": "material_boundary_400mm_r3",
+  "material_boundary_construction_z_m": 0.4,
+  "source_frame": 88,
+  "object": "BodyShell_Torso_Print_2p4",
+  "parent": "Link_Trunk_PikachuIdleRetarget_Scale0842",
+  "coordinates": "K1 Trunk link, meters",
+  "vertices": 975,
+  "triangles": 1958,
+  "bounds_m": [
+    [
+      -0.19960056245326996,
+      -0.2526118755340576,
+      -0.0626884251832962
+    ],
+    [
+      0.2850903272628784,
+      0.23769807815551758,
+      0.24348695576190948
+    ]
+  ],
+  "source_to_trunk": [
+    [
+      1.0,
+      -3.4924596548080444e-10,
+      7.159542292356491e-09,
+      1.862645149230957e-09
+    ],
+    [
+      3.3760443329811096e-09,
+      1.0,
+      -6.984919309616089e-10,
+      -1.1641532182693481e-10
+    ],
+    [
+      -2.9103830456733704e-10,
+      2.3283064365386963e-10,
+      1.0,
+      1.1990778148174286e-08
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "sha256": "3b421ec0bf2b5a9a92842120b1e51ac0cb9cd5cdb6a86fa959bf96c0d8990414",
+  "live_scene_modified": false
+}

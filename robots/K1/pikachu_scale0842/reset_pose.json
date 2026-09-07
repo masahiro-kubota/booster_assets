@@ -1,0 +1,109 @@
+{
+  "source_fk_max_error_m": 1.9470746964190198e-07,
+  "initial_clearance_by_body_m": {
+    "Trunk": 0.029899999499320984,
+    "Head_1": 0.029899999499320984,
+    "Left_Arm_1": 0.029899999499320984,
+    "Right_Arm_1": 0.029899999499320984,
+    "Left_Hip_Pitch": 0.029899999499320984,
+    "Right_Hip_Pitch": 0.029899999499320984,
+    "Head_2": 0.029899999499320984,
+    "Left_Arm_2": 0.029899999499320984,
+    "Right_Arm_2": 0.029899999499320984,
+    "Left_Hip_Roll": 0.029899999499320984,
+    "Right_Hip_Roll": 0.029899999499320984,
+    "Left_Arm_3": 0.029899999499320984,
+    "Right_Arm_3": 0.029899999499320984,
+    "Left_Hip_Yaw": 0.029899999499320984,
+    "Right_Hip_Yaw": 0.029899999499320984,
+    "left_hand_link": 0.029899999499320984,
+    "right_hand_link": 0.029899999499320984,
+    "Left_Shank": 0.029899999499320984,
+    "Right_Shank": 0.029899999499320984,
+    "Left_Ankle_Cross": 0.029899999499320984,
+    "Right_Ankle_Cross": 0.029899999499320984,
+    "left_foot_link": 0.029899999499320984,
+    "right_foot_link": 0.029899999499320984
+  },
+  "reset_clearance_by_body_m": {
+    "Trunk": 0.029899999499320984,
+    "Head_1": 0.029899999499320984,
+    "Left_Arm_1": 0.029899999499320984,
+    "Right_Arm_1": 0.029899999499320984,
+    "Left_Hip_Pitch": 0.029899999499320984,
+    "Right_Hip_Pitch": 0.029899999499320984,
+    "Head_2": 0.029899999499320984,
+    "Left_Arm_2": 0.029899999499320984,
+    "Right_Arm_2": 0.029899999499320984,
+    "Left_Hip_Roll": 0.029899999499320984,
+    "Right_Hip_Roll": 0.029899999499320984,
+    "Left_Arm_3": 0.029899999499320984,
+    "Right_Arm_3": 0.029899999499320984,
+    "Left_Hip_Yaw": 0.029899999499320984,
+    "Right_Hip_Yaw": 0.029899999499320984,
+    "left_hand_link": 0.029899999499320984,
+    "right_hand_link": 0.029899999499320984,
+    "Left_Shank": 0.029899999499320984,
+    "Right_Shank": 0.029899999499320984,
+    "Left_Ankle_Cross": 0.029899999499320984,
+    "Right_Ankle_Cross": 0.029899999499320984,
+    "left_foot_link": 0.029899999499320984,
+    "right_foot_link": 0.029899999499320984
+  },
+  "joint_delta_deg": {
+    "AAHead_yaw": 0.0,
+    "ALeft_Shoulder_Pitch": 0.0,
+    "ARight_Shoulder_Pitch": 0.0,
+    "Left_Hip_Pitch": 0.0,
+    "Right_Hip_Pitch": 0.0,
+    "Head_pitch": 0.0,
+    "Left_Shoulder_Roll": 0.0,
+    "Right_Shoulder_Roll": 0.0,
+    "Left_Hip_Roll": 0.0,
+    "Right_Hip_Roll": 0.0,
+    "Left_Elbow_Pitch": 0.0,
+    "Right_Elbow_Pitch": 0.0,
+    "Left_Hip_Yaw": 0.0,
+    "Right_Hip_Yaw": 0.0,
+    "Left_Elbow_Yaw": 0.0,
+    "Right_Elbow_Yaw": 0.0,
+    "Left_Knee_Pitch": 0.0,
+    "Right_Knee_Pitch": 0.0,
+    "Left_Ankle_Pitch": 0.0,
+    "Right_Ankle_Pitch": 0.0,
+    "Left_Ankle_Roll": 0.0,
+    "Right_Ankle_Roll": 0.0
+  },
+  "foot_delta_m": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "root_pos_unchanged": [
+    0.012446858920156956,
+    0.02626902237534523,
+    0.4504999816417694
+  ],
+  "root_quat_unchanged": [
+    0.9991373419761658,
+    -0.0011815321631729603,
+    0.032464876770973206,
+    0.02587478794157505
+  ],
+  "knee_deg": [
+    81.46389162698469,
+    76.65366260211151
+  ],
+  "optimization": [],
+  "original_pose_preserved": true,
+  "shell_revision": "material_boundary_400mm_r3",
+  "distance_is_capped_at_m": 0.0299,
+  "purpose": "reset initialization only; legs are not reference-tracked"
+}
