@@ -1,0 +1,134 @@
+{
+ "status": "solid PLA for printed parts and shell; electronics, cables and cloth not included; removed K1 camera/audio board not subtracted",
+ "frame": "Head_2 link frame of K1_22dof.urdf (m); COM and inertia about the COM in that frame",
+ "links": {
+  "Head_2": {
+   "base": {
+    "mass_kg": 0.7,
+    "com_m": [
+     0.011042,
+     -0.00092871,
+     0.080698
+    ],
+    "inertia_kg_m2": [
+     [
+      0.005927,
+      -1.2e-05,
+      0.000664
+     ],
+     [
+      -1.2e-05,
+      0.005776,
+      -3.3e-05
+     ],
+     [
+      0.000664,
+      -3.3e-05,
+      0.001807
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.0017023984274171097,
+     0.00577510706869657,
+     0.006032494503886323
+    ],
+    "principal_axes_wxyz": [
+     -0.6494498314363816,
+     0.02435925092012883,
+     0.759675555917646,
+     0.022684644213237855
+    ]
+   },
+   "added": {
+    "mass_kg": 3.9373267255053124,
+    "com_m": [
+     0.07086101645917844,
+     0.008368071244805913,
+     0.12462825808325258
+    ],
+    "inertia_kg_m2": [
+     [
+      0.10013301974985186,
+      -0.0008965670749973149,
+      0.012281371275880616
+     ],
+     [
+      -0.0008965670749973148,
+      0.09422890287380739,
+      0.000585417839602306
+     ],
+     [
+      0.012281371275880613,
+      0.0005854178396023059,
+      0.12053917969392615
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.09323613449637717,
+     0.09536149297820212,
+     0.12630347484300622
+    ],
+    "principal_axes_wxyz": [
+     -0.08450325797230936,
+     0.8952127042693991,
+     0.388917118049086,
+     -0.20049161776774607
+    ]
+   },
+   "combined": {
+    "mass_kg": 4.6373267255053126,
+    "com_m": [
+     0.06183139357513157,
+     0.0069647310756581335,
+     0.1179970279632903
+    ],
+    "inertia_kg_m2": [
+     [
+      0.10725837741359354,
+      -0.0012390915921343592,
+      0.011383537458527422
+     ],
+     [
+      -0.0012390915921343592,
+      0.10327861212024039,
+      0.00030968520706928
+     ],
+     [
+      0.011383537458527418,
+      0.0003096852070692799,
+      0.1245242683095463
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.10093869429437263,
+     0.1039416473737822,
+     0.13018091617522537
+    ],
+    "principal_axes_wxyz": [
+     -0.22062680103742507,
+     -0.23513025902744084,
+     0.9446692500808169,
+     0.06031238600343895
+    ]
+   }
+  }
+ },
+ "head_by_role_kg": {
+  "shell": 2.2049,
+  "print": 1.384,
+  "motor": 0.138,
+  "fastener": 0.1068,
+  "foam": 0.0697,
+  "wood": 0.0195,
+  "horn": 0.0093,
+  "insert": 0.005
+ },
+ "source": {
+  "geometry": "integrated-geometry-r28.json",
+  "spec_sha256": "b996b8f3b97472439095fe896796892a6428619cd5887d6d37001a824f5be609",
+  "view_sha256": "bd59610d659d2c904f3dbc2efd25be71e008f544c17b60c869883b421615f137",
+  "head_to_D": "project-memos/k1-pikachu-hardware-design/head-mechanism/evidence/2026-09-26-baseline/baseline-and-layout-screen.json:head_mm_to_d_mm",
+  "motion": "reviews/preliminary-idle-head-inputs-r01/timeseries.npz (k1_pikachu_idle_scale0842_pingpong_tile3_blender50_grounded_hold0p5.npz)",
+  "generator": "project-memos/eye-gaze-base-20261005/design/a2-r01/head_mass_properties.py"
+ }
+}
