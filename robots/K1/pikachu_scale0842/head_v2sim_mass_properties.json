@@ -1,0 +1,128 @@
+{
+ "status": "solid PLA for printed parts and shell; electronics, cables and cloth not included; removed K1 camera/audio board not subtracted; head turned up about the Head_pitch axis and centred for the v2 head simulation",
+ "frame": "Head_2 link frame of K1_22dof.urdf (m); COM and inertia about the COM in that frame",
+ "links": {
+  "Head_2": {
+   "base": {
+    "mass_kg": 0.7,
+    "com_m": [
+     0.011042,
+     -0.00092871,
+     0.080698
+    ],
+    "inertia_kg_m2": [
+     [
+      0.005927,
+      -1.2e-05,
+      0.000664
+     ],
+     [
+      -1.2e-05,
+      0.005776,
+      -3.3e-05
+     ],
+     [
+      0.000664,
+      -3.3e-05,
+      0.001807
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.0017023984274171097,
+     0.00577510706869657,
+     0.006032494503886323
+    ],
+    "principal_axes_wxyz": [
+     -0.6494498314363816,
+     0.02435925092012883,
+     0.759675555917646,
+     0.022684644213237855
+    ]
+   },
+   "added": {
+    "mass_kg": 3.920747001222231,
+    "com_m": [
+     0.023750106867825613,
+     -0.0002854259373559157,
+     0.1413002253060409
+    ],
+    "inertia_kg_m2": [
+     [
+      0.09440176830563395,
+      -0.0010424583570002733,
+      0.0028576635521254134
+     ],
+     [
+      -0.001042458357000273,
+      0.09416062127550771,
+      0.0002435893531886611
+     ],
+     [
+      0.0028576635521254073,
+      0.00024358935318866104,
+      0.12579055803734215
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.09309166535647372,
+     0.09521198572655393,
+     0.12604929653545616
+    ],
+    "principal_axes_wxyz": [
+     0.9236323340496383,
+     0.014958130770112172,
+     0.0424357310848968,
+     0.38062944519463027
+    ]
+   },
+   "combined": {
+    "mass_kg": 4.620747001222231,
+    "com_m": [
+     0.021824947406568606,
+     -0.0003828774627763187,
+     0.13211955436625394
+    ],
+    "inertia_kg_m2": [
+     [
+      0.10251039652969778,
+      -0.0010593139057507557,
+      0.0030642341263881715
+     ],
+     [
+      -0.0010593139057507555,
+      0.10221392530540607,
+      0.00018743428670852286
+     ],
+     [
+      0.0030642341263881654,
+      0.0001874342867085228,
+      0.12769372541869756
+     ]
+    ],
+    "principal_inertia_kg_m2": [
+     0.10110367157116698,
+     0.10325302629941906,
+     0.12806134938321542
+    ],
+    "principal_axes_wxyz": [
+     0.9253291313361397,
+     0.02127605252323517,
+     0.055679776593940855,
+     0.37445038492193145
+    ]
+   }
+  }
+ },
+ "transform": {
+  "neck_pitch_shift_rad": 0.349,
+  "note": "added = Ry(-neck_pitch_shift) . r27 added + lateral shift; use with the idle motion whose Head_pitch is raised by neck_pitch_shift",
+  "lateral_shift_m": -0.008652295278944995,
+  "r27_head_mid_plane_y_m": 0.008652295278944995
+ },
+ "source": {
+  "r27_mass_file": "booster_assets/robots/K1/pikachu_scale0842/head_r27_mass_properties.json",
+  "r27_mass_file_sha256": "299e0c217d6849d0e781625e7d77707880a75943c2f5985fd2000c5afe8cec67",
+  "head_to_D": "project-memos/k1-pikachu-hardware-design/head-mechanism/evidence/2026-09-26-baseline/baseline-and-layout-screen.json:head_mm_to_d_mm",
+  "generator": "project-memos/v2-head-sim-20261008/scripts/make_head_mass.py"
+ }
+}
